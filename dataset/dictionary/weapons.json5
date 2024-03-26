@@ -1473,7 +1473,7 @@
     en: "Flowing Purity",
     ja: "純水流華",
     zhCN: "纯水流华",
-    pronunciationJa: "じゅんすいるか", // TODO Need Confirmation
+    pronunciationJa: "じゅんすいりゅうか",
     tags: [ "weapon", "catalyst" ],
   },
   {
@@ -1581,7 +1581,7 @@
     en: "Tome of the Eternal Flow",
     ja: "久遠流転の大典",
     zhCN: "万世流涌大典",
-    pronunciationJa: "くおんるてんのだいてん", // TODO Need Check
+    pronunciationJa: "くおんるてんのたいてん",
     tags: [ "weapon", "catalyst" ],
   },
   {
