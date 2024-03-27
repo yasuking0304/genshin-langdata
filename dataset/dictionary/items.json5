@@ -816,7 +816,7 @@
     en: "Condessence Crystal",
     ja: "萃凝晶",
     zhCN: "萃凝晶",
-    pronunciationJa: "すいぎょうしょう",
+    pronunciationJa: "すいぎょうしょう", // TODO Need Check
     tags: [ "item", "fontaine" ],
   },
 
