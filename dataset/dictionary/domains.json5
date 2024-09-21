@@ -519,4 +519,56 @@
     tags: [ "fontaine", "domain" ],
     notesZh: "吞星之鲸的掉落物",
   },
+  {
+    en: "Waterfall Wen",
+    ja: "滝を臨む廃都",
+    zhCN: "临瀑之城",
+    pronunciationJa: "たきをのぞむはいと",
+    tags: [ "fontaine", "domain" ],
+  },
+  {
+    en: "Faded Theater",
+    ja: "色褪せた劇場",
+    zhCN: "褪色的剧场",
+    pronunciationJa: "いろあせたげきじょう",
+    tags: [ "fontaine", "domain" ],
+  },
+  {
+    en: "Scattered Ruins",
+    ja: "ぼろぼろの廃墟",
+    zhCN: "零落丘墟",
+    pronunciationJa: "ぼろぼろのはいきょ",
+    tags: [ "fontaine", "domain" ],
+  },
+  //
+  // Natlan
+  //
+  {
+    en: "Night's Trial",
+    ja: "夜魂の試練",
+    zhCN: "夜魂试炼",
+    pronunciationJa: "やこんのしれん",
+    tags: [ "natlan", "domain" ],
+  },
+  {
+    en: "Blazing Ruins",
+    ja: "秘炎の幽墟",
+    zhCN: "蕴火的幽墟",
+    pronunciationJa: "ひえんのゆうきょ",
+    tags: [ "natlan", "domain" ],
+  },
+  {
+    en: "Ancient Watchowner",
+    ja: "古の眺望台",
+    zhCN: "深古瞭望所",
+    pronunciationJa: "いにしえのちょうぼうだい",
+    tags: [ "natlan", "domain" ],
+  },
+  {
+    en: "Sanctum of Rainbow Spirits",
+    ja: "レインボースピリットの地",
+    zhCN: "虹灵的净土",
+    pronunciationJa: "レインボースピリットのち",
+    tags: [ "natlan", "domain" ],
+  },
 ]
