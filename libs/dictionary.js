@@ -1,17 +1,14 @@
-import { mkdir, open, rm, writeFile } from "fs/promises";
+import { mkdir, open, rm, writeFile } from "node:fs/promises";
+import { resolve } from "node:path";
 import iconv from "iconv-lite";
 import { klona } from "klona/json";
 import { isEqual } from "lodash-es";
 import { DateTime } from "luxon";
 import { marked } from "marked";
 import fetch from "node-fetch";
-import { resolve } from "path";
 import pinyinTone from "pinyin-tone";
-import { fileURLToPath } from "url";
 
 import { jsonTo, loadJSONs } from "./utils.js";
-
-const __dirname = fileURLToPath(new URL(".", import.meta.url));
 
 async function writeFileSJIS(file, data) {
   await rm(file, { force: true });
@@ -28,7 +25,7 @@ export class Dictionary {
   #loaded = false;
 
   async load() {
-    this.#words = await loadJSONs(resolve(__dirname, "../dataset/dictionary"), { json5: true });
+    this.#words = await loadJSONs(resolve(import.meta.dirname, "../dataset/dictionary"), { json5: true });
     this.#addIDs();
     this.#compileMarkdown();
     this.#convertPinyinToneLetters();
@@ -174,25 +171,22 @@ export class Dictionary {
   #compileMarkdown() {
     marked.use({
       renderer: {
-        link(href, title, text) {
+        link({ href, text }) {
           if (href.startsWith("http://") || href.startsWith("https://")) {
             return `<a href="${href}" target="_blank" rel="noopener">${text}</a>`;
           } else {
             return `<a href="${href}">${text}</a>`;
           }
         },
-        paragraph(text) {
-          return text;
-        },
       },
     });
 
     this.#words = this.#words.map(word => {
       if (word.notes) {
-        word.notes = marked.parse(word.notes);
+        word.notes = marked.parseInline(word.notes);
       }
       if (word.notesZh) {
-        word.notesZh = marked.parse(word.notesZh);
+        word.notesZh = marked.parseInline(word.notesZh);
       }
 
       return word;
@@ -236,6 +230,7 @@ export class Dictionary {
         日本語: word.ja,
         日本語読み: word.pronunciationJa,
         備考: word.notes,
+        // eslint-disable-next-line quote-props -- Quotes are necessary when "・" is in the key
         "誤記・通称等": [].concat(word.variants?.ja ?? [], word.variants?.en ?? []).join("・"),
         タグ: word.tags?.join(", "),
       };

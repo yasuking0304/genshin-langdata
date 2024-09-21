@@ -186,7 +186,72 @@
     tags: [ "event", "character-sub" ],
   },
 
+  // v5.0
+  {
+    en: "Traces of Artistry",
+    ja: "巡れ！ワンダフルグラフィティ",
+    zhCN: "绮绘的踪绪",
+    pronunciationJa: "めぐれワンダフルグラフィティ",
+    tags: [ "event" ],
+    notes: "v5.0 期間限定イベント",
+  },
+  {
+    en: "Painted Presents",
+    ja: "カラフルギフト",
+    zhCN: "彩绘赠礼",
+    tags: [ "event" ],
+    notes: "v5.0 期間限定イベント「巡れ! ワンダフルグラフィティ」の子イベント",
+  },
+  {
+    en: "Search for Inspiration",
+    ja: "ヒラメキ探し",
+    zhCN: "探寻灵感",
+    pronunciationJa: "ヒラメキさがし",
+    tags: [ "event" ],
+    notes: "v5.0 期間限定イベント「巡れ! ワンダフルグラフィティ」の子イベント",
+  },
+  {
+    en: "Dodoco's Boom-Bastic Escapades",
+    ja: "ドドコバンバン冒険記",
+    zhCN: "嘟嘟可砰砰历险记",
+    pronunciationJa: "ドドコバンバンぼうけんき",
+    tags: [ "event" ],
+    notes: "v5.0 期間限定イベント",
+  },
+  {
+    en: "Dopey Dazzler's Notes on Graffit",
+    ja: "「カラフルノロマ」の手記",
+    zhCN: "「炫彩呆子」的涂鸦手记",
+    pronunciationJa: "カラフルノロマのしょき",
+    tags: [ "event", "item" ],
+    notes: "v5.0 期間限定イベント「巡れ! ワンダフルグラフィティ」内で貰えるアイテム。簡体字の「涂鸦」とは書きなぐるという意味",
+  },
+  {
+    en: "\"The Sea's Silent Shade\"",
+    ja: "静かな海色",
+    zhCN: "「「凝静的海色」",
+    pronunciationJa: "しずかなうみいろ",
+    tags: [ "event", "weapon-material" ],
+    notes: "v5.0 期間限定イベント「巡れ! ワンダフルグラフィティ」内で貰える配布武器「蒼紋の角杯」の強化アイテム",
+  },
+
   // v4.8
+  {
+    en: "Energy Amplifier: Lemma",
+    ja: "エネルギー原盤・補題",
+    zhCN: "导能原盘·引理",
+    pronunciationJa: "エネルギーげんばんほだい",
+    tags: [ "event" ],
+    notes: "v4.8 期間限定イベント",
+  },
+  {
+    en: "Outside the Canvas, Inside the Lens: Dew-Kissed Chapter",
+    ja: "旅の写真に閃きを・雫の章",
+    zhCN: "画外旅照·浮露之章",
+    pronunciationJa: "たびのしゃしんにひらめきをしずくのしょう",
+    tags: [ "event" ],
+    notes: "v4.8 期間限定イベント",
+  },
   {
     en: "Summertide Scales and Tales",
     ja: "陽夏！悪龍？童話の王国！",
@@ -423,6 +488,14 @@
 
   // v4.7
   {
+    en: "An Everlasting Dream Intertwined",
+    ja: "永き夢を紡いで",
+    zhCN: "纺坠终久之梦",
+    pronunciationJa: "ながきゆめをつむいで",
+    tags: [ "event" ],
+    notes: "v4.7 バージョンサブタイトル",
+  },
+  {
     en: "Mutual Security Enhancing Simulation",
     ja: "堅守演習",
     zhCN: "安固诸方之述演",
@@ -463,6 +536,14 @@
   },
 
   // v4.6
+  {
+    en: "Two Worlds Aflame, the Crimson Night Fades",
+    ja: "双界に至る炎、熄えゆく赤夜",
+    zhCN: "两界为火，赤夜将熄",
+    pronunciationJa: "そうかいにいたるほのおきえゆくせきや", // TODO Need Check
+    tags: [ "event" ],
+    notes: "v4.6 バージョンサブタイトル",
+  },
   {
     en: "Windtrace: Seekers and Strategy",
     ja: "風の行方・妙策の陣",
@@ -1052,7 +1133,7 @@
     en: "Bing-Bang Finchball",
     ja: "カラコロ! チュンボール",
     zhCN: "哐哐当当雀雀球",
-    notes: "v3.8 期間限定イベント「涼夏! 楽園? 大秘境!」のアトラクションの1つ",
+    notes: "v3.8 期間限定イベント「涼夏! 楽園? 大秘境!」のアトラクションの1つ、または v4.8 期間限定イベント",
     tags: [ "event" ],
   },
   {
@@ -1434,8 +1515,8 @@
     en: "Dvorak",
     ja: "ドヴォルザーク",
     zhCN: "德沃沙克",
-    notes: "v3.4 期間限定イベント「華舞う夜の旋律」(海灯祭) に登場する人物",
-    tags: [ "event", "character-sub" ],
+    notes: "v3.4 期間限定イベント「華舞う夜の旋律」(海灯祭) やv4.6 期間限定イベントなどに登場する人物",
+    tags: [ "event", "character-sub", "liyue", "inazuma", "fontaine" ],
   },
   {
     en: "Nascent Bamboo Shoot",

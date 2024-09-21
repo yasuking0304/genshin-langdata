@@ -97,7 +97,7 @@
     pronunciationJa: "せんがんだん",
     tags: [ "liyue", "organization" ],
     notes: "千岩軍の前身",
-    // notesEn: "Predecessor of Millelith",
+    notesEn: "Predecessor of Millelith",
   },
   {
     en: "Ministry of Civil Affairs",
@@ -514,6 +514,38 @@
   },
 
   //
+  // Natlan
+  //
+  {
+    en: "Night Kingdom",
+    ja: "夜神の国",
+    zhCN: "夜神之国",
+    pronunciationJa: "やがみのくに",
+    tags: [ "natlan", "location" ],
+  },
+  {
+    en: "Wayob",
+    ja: "大霊",
+    zhCN: "大灵",
+    pronunciationJa: "たいれい",
+    tags: [ "natlan", "living-being" ],
+  },
+  {
+    en: "\"Pilgrimage\"",
+    ja: "帰火聖夜の巡礼",
+    zhCN: "归火圣夜巡礼",
+    pronunciationJa: "きかせいやのじゅんれい",
+    tags: [ "natlan" ],
+  },
+  {
+    en: "\"Night Warden Wars\"",
+    ja: "夜巡者の戦争",
+    zhCN: "巡夜者战争",
+    pronunciationJa: "よじゅんしゃのせんそう",
+    tags: [ "natlan" ],
+  },
+
+  //
   // Snezhnaya & Fatui
   //
   {
@@ -537,7 +569,7 @@
   {
     en: "Eclipse",
     ja: "黒日",
-    zhCN: "黒日",
+    zhCN: "黑日",
     pronunciationJa: "こくじつ", // TODO Need Check
     tags: [ "khaenriah", "organization" ],
     notes: "カールンイアの古代王朝",
