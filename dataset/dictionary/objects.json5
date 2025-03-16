@@ -279,6 +279,13 @@
     pronunciationJa: "せんぞう",
     tags: [ "object", "liyue" ],
   },
+  {
+    en: "Rattan Figure",
+    ja: "籐人形",
+    zhCN: "藤人",
+    pronunciationJa: "とうにんぎょう",
+    tags: [ "object", "liyue" ],
+  },
 
   //
   // Inazuma
@@ -1225,6 +1232,21 @@
     en: "Spiritway",
     ja: "スピリットウェイ",
     zhCN: "游隙灵道",
+    tags: [ "natlan", "object" ],
+  },
+  {
+    en: "Flamestrider",
+    ja: "双駆輪",
+    zhCN: "驰轮车",
+    pronunciationJa: "そうくりん",
+    notes: "マーヴィカの操るバイク",
+    tags: [ "natlan", "object" ],
+  },
+  {
+    en: "Itzpapa",
+    ja: "イツパパ",
+    zhCN: "伊兹帕帕",
+    notes: "シトラリが元素スキルで召喚するキャラクター",
     tags: [ "natlan", "object" ],
   },
 ]

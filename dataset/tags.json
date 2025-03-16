@@ -70,13 +70,13 @@
     }
   },
   "snezhnaya": {
-    "en": "Snezhnaya / Fatui",
-    "ja": "スネージナヤ・ファデュイ",
-    "zh-CN": "至冬·愚人众",
+    "en": "Snezhnaya",
+    "ja": "スネージナヤ",
+    "zh-CN": "至冬",
     "title": {
-      "en": "Chinese & Japanese translations for words related to Snezhnaya & Fatui",
-      "ja": "スネージナヤ・ファデュイに関する言葉の英語・中国語表記一覧",
-      "zh-CN": "关于至冬·愚人众的词语的英语和日语翻译"
+      "en": "Chinese & Japanese translations for words related to Snezhnaya",
+      "ja": "スネージナヤに関する言葉の英語・中国語表記一覧",
+      "zh-CN": "关于至冬的词语的英语和日语翻译"
     }
   },
   "khaenriah": {
@@ -209,6 +209,16 @@
       "zh-CN": "原神中出现的团体组织相关的英语和日语翻译"
     }
   },
+  "fatui": {
+    "en": "Fatui",
+    "ja": "ファデュイ",
+    "zh-CN": "愚人众",
+    "title": {
+      "en": "Chinese & Japanese translations for words related to Fatui",
+      "ja": "ファデュイに関する言葉の英語・中国語表記一覧",
+      "zh-CN": "愚人众的词语的英语和日语翻译"
+    }
+  },
   "facility": {
     "en": "Shop & Facility",
     "ja": "店舗・施設等",
@@ -267,6 +277,16 @@
       "en": "Chinese & Japanese translations for the Daily Commissions in Genshin Impact",
       "ja": "原神のデイリー依頼の英語・中国語表記一覧",
       "zh-CN": "原神中的每日委托的英语和日语翻译"
+    }
+  },
+  "quest-tribal": {
+    "en": "Tribal Chronicle",
+    "ja": "部族見聞",
+    "zh-CN": "部族纪闻",
+    "title": {
+      "en": "Chinese & Japanese translations for the Tribal Chronicles in Genshin Impact",
+      "ja": "原神の部族見聞の英語・中国語表記一覧",
+      "zh-CN": "原神中的部族纪闻的英语和日语翻译"
     }
   },
   "item": {

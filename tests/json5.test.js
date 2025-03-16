@@ -5,6 +5,53 @@ import { expect, test } from "vitest";
 import tags from "../dataset/tags.json";
 import words from "../dist/words.json";
 
+const japaneseChars = [
+  "・", // "·"
+  "鳥", // "鸟"
+  "竜", // "龙"
+  "災", // "灾"
+  "戦", // "战"
+  "猟", // "猎"
+  "風", // "风"
+  "楓", // "枫"
+  "隊", // "队"
+  "長", // "长"
+  "錬", // "炼"
+  "閉", // "闭"
+  "終", // "终"
+  "絶", // "绝"
+  "紛", // "纷"
+  "納", // "纳"
+  "緑", // "绿"
+  "約", // "约"
+  "綺", // "绮"
+  "鋸", // "锯"
+  "鳴", // "鸣"
+  "黒", // "黑"
+  "競", // "竞"
+  "場", // "场"
+  "尋", // "寻"
+  "茲", // "兹"
+  "駄", // "驮"
+  "獣", // "兽"
+  "霊", // "灵"
+  "聖", // "圣"
+  "別", // "别"
+  "庫", // "库"
+  "誇", // "夸"
+  "徳", // "德"
+  "陽", // "阳"
+  "録", // "录"
+  "偵", // "侦"
+  "夢", // "梦"
+  "見", // "见"
+  "覘", // "觇"
+  "滅", // "灭"
+  "藍", // "蓝"
+  "斎", // "斋"
+  "閣", // "阁"
+];
+
 function isURL(urlStr) {
   try {
     new URL(urlStr);
@@ -122,15 +169,29 @@ test("if property values of dictionary JSON complies the format.", async () => {
   for (const word of words) {
     expect(typeof word.id).toBe("string");
     expect(typeof word.en).toBe("string");
+    expect(word.en).equal(word.en.trim());
     if (word.ja) {
       expect(typeof word.ja).toBe("string");
+      expect(word.ja).equal(word.ja.trim());
     }
     if (word.zhCN) {
       expect(typeof word.zhCN).toBe("string");
+      expect(word.zhCN).equal(word.zhCN.trim());
+    }
+
+    if (typeof word.notesEn !== "undefined") {
+      expect(typeof word.notesEn).toBe("string");
+      expect(word.notesEn).equal(word.notesEn.trim());
     }
 
     if (typeof word.notes !== "undefined") {
       expect(typeof word.notes).toBe("string");
+      expect(word.notes).equal(word.notes.trim());
+    }
+
+    if (typeof word.notesZh !== "undefined") {
+      expect(typeof word.notesZh).toBe("string");
+      expect(word.notesZh).equal(word.notesZh.trim());
     }
 
     if (typeof word.pronunciationJa !== "undefined" && word.pronunciationJa !== null) {
@@ -180,6 +241,17 @@ test("if property values of dictionary JSON complies the format.", async () => {
           ok(isURL(example.refURL), `Invalid refURL of ${word.en}: ${example.refURL}`);
         }
       }
+    }
+
+    // Check simplified Chinese characters
+    if (!word.zhCN) {
+      return;
+    }
+
+    expect(word.zhCN).not.toMatch(/[ぁ-んァ-ヴー]/);
+
+    for (const jaChar of japaneseChars) {
+      expect(word.zhCN).not.toContain(jaChar);
     }
   }
 });

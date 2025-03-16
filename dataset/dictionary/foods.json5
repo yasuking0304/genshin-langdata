@@ -172,6 +172,20 @@
     pronunciationJa: "かもにくのコンフィ",
     tags: [ "food" ],
   },
+  {
+    en: "Jadevein Tea Eggs",
+    ja: "玉紋茶葉蛋",
+    zhCN: "玉纹茶叶蛋",
+    pronunciationJa: "ぎょくもんちゃばたん",
+    tags: [ "food" ],
+  },
+  {
+    en: "Chenyu Brew",
+    ja: "沈玉茶",
+    zhCN: "沉玉茶露",
+    pronunciationJa: "ちんぎょくちゃ",
+    tags: [ "food" ],
+  },
 
   // ★★
   {
@@ -521,6 +535,20 @@
     en: "Fonta",
     ja: "フォンタ",
     zhCN: "枫达",
+    tags: [ "food" ],
+  },
+  {
+    en: "Tea-Smoked Squab",
+    ja: "仔鳩の茶葉燻製",
+    zhCN: "茶熏乳鸽",
+    pronunciationJa: "こばとのちゃばくんせい",
+    tags: [ "food" ],
+  },
+  {
+    en: "Qingxin Flower Cake",
+    ja: "清心の花パイ",
+    zhCN: "清心花饼",
+    pronunciationJa: "せいしんのはなパイ",
     tags: [ "food" ],
   },
 
@@ -1005,6 +1033,13 @@
     zhCN: "花果三重奏",
     tags: [ "food" ],
   },
+  {
+    en: "Bathhouse Manjuu",
+    ja: "銭湯まんじゅう",
+    pronunciationJa: "せんとうまんじゅう",
+    zhCN: "钱汤馒头",
+    tags: [ "food" ],
+  },
 
   // ★★★★
   {
@@ -1102,7 +1137,18 @@
     zhCN: "韦西鸡",
     tags: [ "food" ],
   },
-
+  {
+    en: "Stuffed N' Mashed Potatoes",
+    ja: "カウサ",
+    zhCN: "夹心土豆泥",
+    tags: [ "food" ],
+  },
+  {
+    en: "Drunken Plums in Snow",
+    ja: "梅落雪間酔",
+    zhCN: "梅落雪间醉",
+    tags: [ "food" ],
+  },
 
   // ★★★★★
   {
@@ -1262,6 +1308,54 @@
     en: "Cup O'Grainfruit",
     ja: "グレインカップ",
     zhCN: "粒果杯",
+    tags: [ "food" ],
+  },
+  {
+    en: "Xocoatl",
+    ja: "ショコアトゥル水",
+    zhCN: "苦水",
+    pronunciationJa: "ショコアトゥルすい",
+    tags: [ "food" ],
+  },
+  {
+    en: "Mystique Soup",
+    ja: "ミステリードリンク",
+    zhCN: "奇瑰之汤",
+    tags: [ "food" ],
+  },
+  {
+    en: "Sing Your Heart Out",
+    ja: "高らかな歌声",
+    zhCN: "纵声欢唱",
+    pronunciationJa: "たからかなうたごえ",
+    tags: [ "food" ],
+  },
+  {
+    en: "Grainfruit Wrap",
+    ja: "グレインラップ",
+    zhCN: "粒果裹裹",
+    tags: [ "food" ],
+  },
+  {
+    en: "Sour Sauce Ceviche",
+    ja: "セビチェ",
+    zhCN: "酸汁腌鱼",
+    tags: [ "food", "natlan", "quest-world" ],
+    notesEn: "Reward for the World Quest \"A Saurian Lover's Ordinary Days\"",
+    notes: "世界任務「とある竜マニアの平凡な暮らし」報酬",
+    notesZh: "世界任务「爱龙人的平凡生活」奖励",
+  },
+  {
+    en: "Magmic Ode",
+    ja: "炎岩の歌",
+    pronunciationJa: "えんがんのうた",  // TODO need check
+    zhCN: "炎岩之颂",
+    tags: [ "food" ],
+  },
+  {
+    en: "Tatacos",
+    ja: "タタコス",
+    zhCN: "塔塔可",
     tags: [ "food" ],
   },
 
@@ -1581,6 +1675,16 @@
     tags: [ "food", "liyue" ],
     notes: "嘉明のオリジナル料理",
   },
+  {
+    en: "Jade-Cut Flowers",
+    ja: "花に翦玉",
+    zhCN: "玉剪着花",
+    pronunciationJa: "はなにせんぎょく",
+    tags: [ "food", "liyue" ],
+    notesEn: "Lan Yan's Specialty",
+    notes: "藍硯のオリジナル料理",
+    notesZh: "蓝砚的特色料理",
+  },
 
   // Inazuma
   {
@@ -1686,8 +1790,38 @@
     tags: [ "food", "inazuma" ],
     notes: "鹿野院平蔵のオリジナル料理",
   },
+  {
+    en: "Energizing Bento",
+    ja: "元気お弁当",
+    zhCN: "朝气盒饭",
+    pronunciationJa: "げんきおべんとう",
+    tags: [ "food", "inazuma" ],
+    notesEn: "Kirara's specialty",
+    notes: "綺良々のオリジナル料理",
+    notesZh: "绮良良的特色料理",
+  },
+  {
+    en: "Dreams of Healing",
+    ja: "夢一夜の癒し",
+    zhCN: "一梦治愈",
+    pronunciationJa: "ゆめひとよのいやし",
+    tags: [ "food", "inazuma" ],
+    notesEn: "Yumemizuki Mizuki's specialty",
+    notes: "夢見月瑞希のオリジナル料理",
+    notesZh: "梦见月瑞希的特色料理",
+  },
 
   // Sumeru
+  {
+    en: "Forest Watcher's Choice",
+    ja: "レンジャー長のイチオシ",
+    zhCN: "巡林官精选",
+    pronunciationJa: "レンジャーちょうのイチオシ",
+    tags: [ "food", "inazuma" ],
+    notesEn: "Tighnari's specialty",
+    notes: "ティナリのオリジナル料理",
+    notesZh: "提纳里的特色料理",
+  },
   {
     en: "Yearning",
     ja: "憧れ",
@@ -1728,6 +1862,25 @@
     pronunciationJa: "りそうてきじょうきょう",
     tags: [ "food", "sumeru" ],
     notes: "アルハイゼンのオリジナル料理",
+  },
+  {
+    en: "Show Me the Mora",
+    ja: "モラ、早くいらっしゃい！",
+    zhCN: "摩拉急速来",
+    pronunciationJa: "モラはやくいらっしゃい",
+    tags: [ "food", "sumeru" ],
+    notesEn: "Dori's specialty",
+    notes: "ドリーのオリジナル料理",
+    notesZh: "多莉的特色料理",
+  },
+  {
+    en: "Halvamazd",
+    ja: "ハルヴァマズダ",
+    zhCN: "哈瓦玛玛兹",
+    tags: [ "food", "sumeru" ],
+    notesEn: "Nahida's specialty",
+    notes: "ナヒーダのオリジナル料理",
+    notesZh: "纳西妲的特色料理",
   },
   {
     en: "Shimi Chazuke",
@@ -1796,6 +1949,45 @@
     notes: "リネットのオリジナル料理",
   },
   {
+    en: "Seabird's Sojourn",
+    ja: "海鳥の一休み",
+    zhCN: "海鸟的驻足",
+    pronunciationJa: "うみどりのひとやすみ",
+    tags: [ "food", "fontaine" ],
+    notesEn: "Freminet's specialty",
+    notes: "フレミネのオリジナル料理",
+    notesZh: "菲米尼的特色料理",
+  },
+  {
+    en: "Consomme Purete",
+    ja: "無欠のピュルテ",
+    zhCN: "缥雨一滴",
+    pronunciationJa: "むけつのピュルテ",
+    tags: [ "food", "fontaine" ],
+    notesEn: "Neuvillette's specialty",
+    notes: "ヌヴィレットのオリジナル料理",
+    notesZh: "那维莱特的特色料理",
+  },
+  {
+    en: "Secret Sauce BBQ Ribs",
+    ja: "秘伝のローストリブ",
+    zhCN: "秘烤肋排",
+    pronunciationJa: "ひでんのローストリブ",
+    tags: [ "food", "fontaine" ],
+    notesEn: "Wriothesley's specialty",
+    notes: "リオセスリのオリジナル料理",
+    notesZh: "萊歐斯利的特色料理",
+  },
+  {
+    en: "Pour la Justice",
+    ja: "プル・ラ・ジャスティス",
+    zhCN: "普茹斯蒂司",
+    tags: [ "food", "fontaine" ],
+    notesEn: "Furina's specialty",
+    notes: "フリーナのオリジナル料理",
+    notesZh: "芙宁娜的特色料理",
+  },
+  {
     en: "Sin: The Kind that Doesn't Need to be Dealt With",
     ja: "罪・対処不必要型",
     zhCN: "罪恶·非必要处理型",
@@ -1849,12 +2041,16 @@
     tags: [ "food", "fontaine" ],
     notes: "エミリエのオリジナル料理",
   },
+
+  // Natlan
   {
     en: "Impeccably Organized",
     ja: "きっちりチップス",
     zhCN: "齐齐整整",
     tags: [ "food", "natlan" ],
+    notesEn: "Kachina's specialty",
     notes: "カチーナのオリジナル料理",
+    notesZh: "卡齐娜的特色料理",
   },
   {
     en: "Pass the Luck",
@@ -1862,7 +2058,66 @@
     zhCN: "好运传递",
     pronunciationJa: "こううんのおすそわけ",
     tags: [ "food", "natlan" ],
+    notesEn: "Mualani's specialty",
     notes: "ムアラニのオリジナル料理",
+    notesZh: "玛拉妮的特色料理",
+  },
+  {
+    en: "Saurian Hunter's Reward",
+    ja: "竜狩り人の褒賞",
+    zhCN: "猎龙者的犒赏",
+    tags: [ "food", "natlan" ],
+    notesEn: "Kinich's specialty",
+    notes: "キィニチのオリジナル料理",
+    notesZh: "基尼奇的特色料理",
+  },
+  {
+    en: "Fruit-Flavored Milk Candies",
+    ja: "フルーツミルクキャンディ",
+    zhCN: "果味奶糖",
+    tags: [ "food", "natlan" ],
+    notesEn: "Xilonen's specialty",
+    notes: "シロネンのオリジナル料理",
+    notesZh: "希诺宁的特色料理",
+  },
+  {
+    en: "Moment of Respite",
+    ja: "しばしの休息",
+    zhCN: "歇止一刻",
+    pronunciationJa: "しばしのきゅうそく",
+    tags: [ "food", "natlan" ],
+    notesEn: "Chasca's specialty",
+    notes: "チャスカのオリジナル料理",
+    notesZh: "恰斯卡的特色料理",
+  },
+  {
+    en: "Honey-Glazed Ceviche",
+    ja: "ハニーセビチェ",
+    zhCN: "蜜汁腌鱼",
+    tags: [ "food", "natlan" ],
+    notesEn: "Ororon's specialty",
+    notes: "オロルンのオリジナル料理",
+    notesZh: "欧洛伦的特色料理",
+  },
+  {
+    en: "Hymn of Gathered Flame",
+    ja: "集いし炎の賛歌",
+    zhCN: "簇火赞歌",
+    pronunciationJa: "つどいしほのおのさんか",
+    tags: [ "food", "natlan" ],
+    notesEn: "Mavuika's specialty",
+    notes: "マーヴィカのオリジナル料理",
+    notesZh: "玛薇卡的特色料理",
+  },
+  {
+    en: "Secret Art",
+    ja: "唯一無二の秘法",
+    zhCN: "独门秘法",
+    pronunciationJa: "ゆいいつむにのひほう",
+    tags: [ "food", "natlan" ],
+    notesEn: "Citlali's specialty",
+    notes: "シトラリのオリジナル料理",
+    notesZh: "茜特菈莉的特色料理",
   },
 
   //
@@ -2111,12 +2366,6 @@
     en: "Blubber Profiterole",
     ja: "プクプクシュークリーム",
     zhCN: "膨膨泡芙",
-    tags: [ "fontaine", "food" ],
-  },
-  {
-    en: "Pour la Justice",
-    ja: "プル·ラ·ジャスティス",
-    zhCN: "普茹斯蒂司",
     tags: [ "fontaine", "food" ],
   },
   {

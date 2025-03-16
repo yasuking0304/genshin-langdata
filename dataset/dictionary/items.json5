@@ -334,6 +334,13 @@
     tags: [ "item", "fontaine" ],
   },
   {
+    en: "Pyro Treasure Compass",
+    ja: "炎のトレジャーコンパス",
+    zhCN: "火之寻宝罗盘",
+    pronunciationJa: "ほのおのトレジャーコンパス",
+    tags: [ "item", "natlan" ],
+  },
+  {
     en: "NRE (Menu 30)",
     ja: "三〇式・携帯式栄養袋",
     zhCN: "叁零式·便携营养袋",
@@ -1005,6 +1012,20 @@
     pronunciationJa: "メンテマシナリー・はっきんひぞうがた",
     tags: [ "item", "fontaine" ],
   },
+  {
+    en: "Dusk Sunfish",
+    ja: "黄昏マンボウ",
+    zhCN: "晚霞翻车鲀",
+    pronunciationJa: "たそがれマンボウ",
+    tags: [ "item" ],
+  },
+  {
+    en: "Pseudoshark Unihornfish",
+    ja: "サメモドキツノ魚",
+    pronunciationJa: "サメモドキツノぎょ",
+    zhCN: "伪装鲨鲨独角鱼",
+    tags: [ "item" ],
+  },
 
   //
   // Bait (釣り餌)
@@ -1061,6 +1082,18 @@
     ja: "メンテマシナリーの閃光釣り餌",
     zhCN: "维护机关频闪诱饵",
     tags: [ "item", "fontaine" ],
+  },
+  {
+    en: "Spinelgrain Bait",
+    ja: "スピネルグレインの餌",
+    zhCN: "澄晶果粒饵",
+    tags: [ "item", "natlan" ],
+  },
+  {
+    en: "Emberglow Bait",
+    ja: "エンバー餌",
+    zhCN: "温火饵",
+    tags: [ "item", "natlan" ],
   },
 
   //
@@ -1203,6 +1236,14 @@
     tags: [ "item", "inazuma" ],
   },
   {
+    en: "Festive Drum",
+    ja: "綺宴の鼓",
+    zhCN: "绮筵之鼓",
+    pronunciationJa: "きえんのこ", // きえんのつづみ? TODO Need check
+    notes: "稲妻の「根付の源」で購入可能な楽器",
+    tags: [ "item", "inazuma" ],
+  },
+  {
     en: "A Thousand Nights",
     ja: "千夜物語",
     zhCN: "千夜故事集",
@@ -1284,8 +1325,93 @@
   {
     en: "The Tale of Qoyllor and Ukuku",
     ja: "クイールとウククの物語",
-    zhCN: "奎伊露和乌库库的故事	",
+    zhCN: "奎伊露和乌库库的故事",
     pronunciationJa: "クイールとウククのものがたり",
+    tags: [ "natlan", "item" ],
+  },
+  {
+    en: "Maawe and Monetto",
+    ja: "マーウェと幻写霊",
+    zhCN: "玛阿威与幻写灵",
+    pronunciationJa: "マーウェとげんしゃれい",
+    tags: [ "natlan", "item" ],
+  },
+  {
+    en: "The Page Princess and the Six Pygmies",
+    ja: "白姫と六人の小人",
+    zhCN: "白之公主与六侏儒",
+    pronunciationJa: "しらひめとろくにんのこびと",
+    tags: [ "natlan", "item" ],
+  },
+  {
+    en: "Record of Hanan Pacha",
+    ja: "ハナン・パチャの記録",
+    zhCN: "哈南帕查记事",
+    pronunciationJa: "ハナンパチャのきろく",
+    tags: [ "natlan", "item" ],
+  },
+  {
+    en: "The Volcano Lord and the Shadow Pins",
+    ja: "火山大王と影縫いの針",
+    zhCN: "火山大王与缝影针",
+    pronunciationJa: "かざんだいおうとかげぬいのはり",
+    tags: [ "natlan", "item" ],
+  },
+  {
+    en: "The Tale of Kuntur",
+    ja: "クントゥルの物語",
+    zhCN: "昆图尔的故事",
+    pronunciationJa: "クントゥルのものがたり",
+    tags: [ "natlan", "item" ],
+  },
+  {
+    en: "Djem Djem Drum",
+    ja: "ジャンペ",
+    zhCN: "聚聚鼓",
+    notes: "流泉の衆の「ジャンペ楽器店」で購入可能な楽器",
+    tags: [ "natlan", "item" ],
+  },
+  {
+    en: "Ukulele",
+    ja: "ウクレレ",
+    zhCN: "悠可琴",
+    notes: "流泉の衆の「ジャンペ楽器店」で購入可能な楽器",
+    tags: [ "natlan", "item" ],
+  },
+  {
+    en: "Saurus Crackers: Tatankasaurus",
+    ja: "ちび竜ビスケット・ライノ",
+    zhCN: "龙龙饼干·突角",
+    tags: [ "natlan", "item" ],
+  },
+  {
+    en: "Saurus Crackers: Qucusaurus",
+    ja: "ちび竜ビスケット・クク",
+    zhCN: "龙龙饼干·绒翼",
+    tags: [ "natlan", "item" ],
+  },
+  {
+    en: "Saurus Crackers: Yumkasaurus",
+    ja: "ちび竜ビスケット・ユムカ",
+    zhCN: "龙龙饼干·匿叶",
+    tags: [ "natlan", "item" ],
+  },
+  {
+    en: "Saurus Crackers: Iktomisaurus",
+    ja: "ちび竜ビスケット・イクトミ",
+    zhCN: "龙龙饼干·暝视",
+    tags: [ "natlan", "item" ],
+  },
+  {
+    en: "Saurus Crackers: Koholasaurus",
+    ja: "ちび竜ビスケット・コホラ",
+    zhCN: "龙龙饼干·鳍游",
+    tags: [ "natlan", "item" ],
+  },
+  {
+    en: "Saurus Crackers: Tepetlisaurus",
+    ja: "ちび竜ビスケット・テペトル",
+    zhCN: "龙龙饼干·嵴锋",
     tags: [ "natlan", "item" ],
   },
 
@@ -1365,6 +1491,27 @@
     zhCN: "涂鸦留影机",
     pronunciationJa: "ラクガキしゃしんき",
     tags: [ "natlan", "item", "event" ],
+  },
+  {
+    en: "Paimon's Kamera",
+    ja: "パイモンの写真機",
+    zhCN: "派蒙的留影机",
+    pronunciationJa: "パイモンのしゃしんき",
+    tags: [ "item", "event" ],
+  },
+  {
+    en: "Mementos of Teyvat Albums",
+    ja: "テイワットの思い出のアルバム",
+    zhCN: "提瓦特忆册",
+    pronunciationJa: "テイワットのおもいでのアルバム",
+    tags: [ "item", "event" ],
+  },
+  {
+    en: "Firstborn Firesprite",
+    ja: "新生の霊炎",
+    zhCN: "初诞灵焰",
+    pronunciationJa: "しんせいのれいえん",
+    tags: [ "item" ],
   },
 
   //
@@ -1643,6 +1790,69 @@
     pronunciationJa: "よるのぎょく",
     tags: [ "item", "natlan" ],
   },
+  {
+    en: "Blazing Flint Ore",
+    ja: "灼熱の燧原鉱",
+    zhCN: "灼燃的燧原矿",
+    pronunciationJa: "しゃくねつのすいげんこう",
+    tags: [ "item", "natlan" ],
+  },
+  {
+    en: "Pilgrim's Chronicle",
+    ja: "聖宵の旅織り",
+    zhCN: "圣夜旅织",
+    pronunciationJa: "せいしょうのたびおり",
+    tags: [ "item", "natlan" ],
+  },
+  {
+    en: "Felix Felicium",
+    ja: "「幸運の祝福」",
+    zhCN: "「幸运祝福」",
+    pronunciationJa: "こううんのしゅくふく",
+    tags: [ "item", "natlan" ],
+  },
+  {
+    en: "Path of Turnfire",
+    ja: "廻焔の道",
+    zhCN: "回火之路",
+    pronunciationJa: "かいえんのみち",
+    tags: [ "item", "natlan" ],
+  },
+  {
+    en: "Somewhat Aged Copy of \"Tequit the Brave\"",
+    ja: "やや古びた『勇敢なテクィ』",
+    zhCN: "略显陈旧的《勇敢的特奎》",
+    pronunciationJa: "ややふるびたゆうかんなテクィ",
+    tags: [ "item", "natlan" ],
+  },
+  {
+    en: "Spanking New Copy of \"Tequit the Brave\"",
+    ja: "新品同様の『勇敢なテクィ』",
+    zhCN: "整洁崭新的《勇敢的特奎》",
+    pronunciationJa: "しんぴんんどうようのゆうかんなテクィ",
+    tags: [ "item", "natlan" ],
+  },
+  {
+    en: "A Nameless Adventurer's Notes",
+    ja: "無名冒険者のノート",
+    zhCN: "无名冒险家的笔记",
+    pronunciationJa: "むめいぼうけんしゃのノート",
+    tags: [ "item", "natlan" ],
+  },
+  {
+    en: "Hu Tao: Plum Branch",
+    ja: "「胡桃・梅の枝」",
+    zhCN: "「胡桃·梅枝」",
+    pronunciationJa: "ふーたお・うめのえだ",
+    tags: [ "item", "liyue" ],
+  },
+  {
+    en: "Zhongli: Rex Coin",
+    ja: "「鍾離・帝銭」",
+    zhCN: "「钟离·帝钱」",
+    pronunciationJa: "しょうり・ていせん",
+    tags: [ "item", "liyue" ],
+  },
 
   //
   // Dresesings
@@ -1755,5 +1965,19 @@
     zhCN: "倩影游侠",
     pronunciationJa: "うるわしきかいけつ",
     notes: "綺良々のコスチューム",
+  },
+  {
+    en: "Cherries Snow-Laden",
+    ja: "残雪に咲く紅",
+    zhCN: "宿雪桃紅",
+    pronunciationJa: "ざんせつにさくくれない",
+    notes: "胡桃のコスチューム",
+  },
+  {
+    en: "New Year's Cheer",
+    ja: "大つごもりの歓声",
+    zhCN: "歲夜歡譁",
+    pronunciationJa: "おおつごもりのかんせい",
+    notes: "香菱のコスチューム",
   },
 ]

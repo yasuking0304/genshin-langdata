@@ -236,7 +236,7 @@
     en: "Bake-Danuki",
     ja: "妖狸",
     zhCN: "妖狸",
-    pronunciationJa: "ばけだぬき",
+    pronunciationJa: "ばけだぬき / ようり",
     tags: [ "living-being", "inazuma" ],
   },
   // Enkanomiya
@@ -494,6 +494,13 @@
   // Natlan
   //
   {
+    en: "Wayob",
+    ja: "大霊",
+    zhCN: "大灵",
+    pronunciationJa: "たいれい",
+    tags: [ "natlan", "living-being" ],
+  },
+  {
     en: "Blue Mountain Spoonbill",
     ja: "アオヤマヘラサギ",
     zhCN: "山蓝琵鹭",
@@ -526,7 +533,7 @@
   {
     en: "Flowfire Bird",
     ja: "浮燃ペンギン",
-    zhCN: "浮燃鳥",
+    zhCN: "浮燃鸟",
     tags: [ "natlan", "living-being" ],
   },
   {

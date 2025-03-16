@@ -284,6 +284,22 @@
     pronunciationJa: "エズピツァルのふえ",
     tags: [ "weapon", "sword" ],
   },
+  {
+    en: "Sturdy Bone",
+    ja: "ストロング・ボーン",
+    zhCN: "弥坚骨",
+    tags: [ "weapon", "sword" ],
+  },
+  {
+    en: "Calamity of Eshu",
+    ja: "厄水の災い",
+    zhCN: "厄水之祸",
+    pronunciationJa: "やくみずのわざわい",
+    tags: [ "weapon", "sword" ],
+    notesEn: "v5.2 Reward for the Limited Time Event \"Iktomi Spiritseeking Scrolls\"",
+    notes: "v5.2 期間限定イベント「スピリットを求めしウォーベン」報酬",
+    notesZh: "v5.2 限时活动「暝视寻灵织卷」奖励",
+  },
   // ★5
   {
     en: "Aquila Favonia",
@@ -385,6 +401,13 @@
     ja: "有楽御簾切",
     zhCN: "有乐御簾切",
     pronunciationJa: "うらくみすぎり",
+    tags: [ "weapon", "sword" ],
+  },
+  {
+    en: "Peak Patrol Song",
+    ja: "岩峰を巡る歌",
+    zhCN: "岩峰巡歌",
+    pronunciationJa: "がんほうをめぐるうた",
     tags: [ "weapon", "sword" ],
   },
 
@@ -679,6 +702,20 @@
     pronunciationJa: "さいだん",
     tags: [ "weapon", "claymore" ],
   },
+  {
+    en: "Fang of the Mountain King",
+    ja: "山の王の長牙",
+    zhCN: "山王长牙",
+    pronunciationJa: "やまのおうのちょうが",
+    tags: [ "weapon", "claymore" ],
+  },
+  {
+    en: "A Thousand Blazing Suns",
+    ja: "千烈の日輪",
+    zhCN: "焚曜千阳",
+    pronunciationJa: "せんれつのにちりん",
+    tags: [ "weapon", "claymore" ],
+  },
 
   //
   // Polearm
@@ -876,6 +913,22 @@
     zhCN: "虹的行迹",
     pronunciationJa: "にじのゆくえ",
     tags: [ "weapon", "polearm" ],
+  },
+  {
+    en: "Mountain-Bracing Bolt",
+    ja: "鎮山の釘",
+    zhCN: "镇山之钉",
+    pronunciationJa: "ちんざんのくぎ",
+    tags: [ "weapon", "polearm" ],
+  },
+  {
+    en: "Tamayuratei no Ohanashi",
+    ja: "玉響停の御噺",
+    zhCN: "且住亭御咄",
+    pronunciationJa: "たまゆらていのおはなし",
+    tags: [ "weapon", "polearm", "event" ],
+    notes: "v5.4 期間限定イベント「三川遊芸夢綺譚」報酬",
+    notesZh: "v5.4 活动「三川游艺绮梦谭」奖励",
   },
   // ★5
   {
@@ -1189,9 +1242,25 @@
     tags: [ "weapon", "bow" ],
   },
   {
+    en: "Cloudforged",
+    ja: "築雲",
+    zhCN: "筑云",
+    pronunciationJa: "ちくうん",
+    tags: [ "weapon", "bow", "event" ],
+    notes: "v4.7 期間限定イベント「堅守演習」報酬",
+    notesZh: "v4.7 活动「安固诸方之述演」奖励",
+  },
+  {
     en: "Chain Breaker",
     ja: "チェーンブレイカー",
     zhCN: "碎链",
+    tags: [ "weapon", "bow" ],
+  },
+  {
+    en: "Flower-Wreathed Feathers",
+    ja: "花飾りの羽",
+    zhCN: "缀花之翎",
+    pronunciationJa: "かねかざりのはね",
     tags: [ "weapon", "bow" ],
   },
   // ★5
@@ -1270,18 +1339,16 @@
     tags: [ "weapon", "bow" ],
   },
   {
-    en: "Cloudforged",
-    ja: "築雲",
-    zhCN: "筑云",
-    pronunciationJa: "ちくうん",
-    tags: [ "weapon", "bow", "event" ],
-    notes: "v4.7 期間限定イベント「堅守演習」報酬",
-    notesZh: "v4.7 活动「安固诸方之述演」奖励",
-  },
-  {
     en: "Silvershower Heartstrings",
     ja: "白雨心弦",
     zhCN: "白雨心弦",
+    tags: [ "weapon", "bow" ],
+  },
+  {
+    en: "Astral Vulture's Crimson Plumage",
+    ja: "星鷹の紅き羽",
+    zhCN: "星鹫赤羽",
+    pronunciationJa: "せいしゅうのあかきはね",
     tags: [ "weapon", "bow" ],
   },
 
@@ -1506,6 +1573,13 @@
     pronunciationJa: "ヤシュチェのかん",
     tags: [ "weapon", "catalyst" ],
   },
+  {
+    en: "Waveriding Whirl",
+    ja: "波乗りの旋回",
+    zhCN: "乘浪的回旋",
+    pronunciationJa: "なみのりのせんかい",
+    tags: [ "weapon", "catalyst" ],
+  },
   // ★5
   {
     en: "Skyward Atlas",
@@ -1602,6 +1676,13 @@
     en: "Surf's Up",
     ja: "サーフィンタイム",
     zhCN: "冲浪时光",
+    tags: [ "weapon", "catalyst" ],
+  },
+  {
+    en: "Sunny Morning Sleep-In",
+    ja: "寝正月の初晴",
+    zhCN: "寝正月初晴",
+    pronunciationJa: "ねしょうがつのはつばれ",
     tags: [ "weapon", "catalyst" ],
   },
 ]
