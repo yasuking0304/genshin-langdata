@@ -1,0 +1,597 @@
+import type { SourceWord } from "../../libs/types.ts";
+
+export default [
+  //
+  // General
+  //
+  {
+    en: "Adventurers' Guild",
+    ja: "冒険者協会",
+    zhCN: "冒险家协会",
+    pronunciationJa: "ぼうけんしゃきょうかい",
+    tags: [ "organization" ],
+  },
+
+  //
+  // Mondstadt
+  //
+  {
+    en: "Knights of Favonius",
+    ja: "西風騎士団",
+    zhCN: "西风骑士团",
+    pronunciationJa: "セピュロスきしだん",
+    tags: [ "mondstadt", "organization" ],
+    variants: {
+      ja: [ "騎士団" ],
+      en: [ "Knights of Favonious" ],
+    },
+  },
+  {
+    en: "Church of Favonius",
+    ja: "西風教会",
+    zhCN: "西风教会",
+    pronunciationJa: "セピュロスきょうかい",
+    tags: [ "mondstadt", "organization", "facility" ],
+    variants: {
+      en: [ "Church of Favonious" ],
+    },
+  },
+  {
+    en: "Gunnhildr Clan",
+    ja: "グンヒルド家",
+    zhCN: "古恩希尔德家族",
+    tags: [ "organization" ],
+  },
+  {
+    en: "Ragnvindr Clan",
+    ja: "ラグヴィンド家",
+    zhCN: "莱艮芬德家族",
+    tags: [ "organization" ],
+  },
+  {
+    en: "Lawrence Clan",
+    ja: "ローレンス家",
+    zhCN: "劳伦斯家族",
+    tags: [ "organization" ],
+  },
+  {
+    en: "Benny's Adventure Team",
+    ja: "ベニー冒険団",
+    zhCN: "班尼冒险团",
+    pronunciationJa: "ベニーぼうけんだん",
+    tags: [ "mondstadt", "organization" ],
+  },
+  {
+    en: "Hexenzirkel",
+    ja: "魔女会",
+    zhCN: "魔女会",
+    pronunciationJa: "まじょかい",
+    tags: [ "mondstadt", "organization" ],
+  },
+
+
+  //
+  // Liyue
+  //
+  // TODO need check
+  {
+    en: "Liyue Qixing / Qixing of Liyue",
+    ja: "璃月七星",
+    zhCN: "璃月七星",
+    pronunciationJa: "りーゆぇしちせい",
+    tags: [ "liyue", "organization" ],
+    variants: {
+      ja: [ "りーゆえしちせい" ],
+    },
+  },
+  // TODO need check
+  {
+    en: "Millelith",
+    ja: "千岩軍",
+    zhCN: "千岩军",
+    pronunciationJa: "せんがんぐん",
+    tags: [ "liyue", "organization" ],
+  },
+  {
+    en: "Millelith Brigade",
+    ja: "千岩団",
+    zhCN: "千岩团",
+    pronunciationJa: "せんがんだん",
+    tags: [ "liyue", "organization" ],
+    notes: "千岩軍の前身",
+    notesEn: "Predecessor of Millelith",
+  },
+  {
+    en: "Ministry of Civil Affairs",
+    ja: "総務司",
+    zhCN: "总务司",
+    pronunciationJa: "そうむし",
+    tags: [ "liyue", "organization" ],
+  },
+  {
+    en: "Huishan Hall",
+    ja: "輝山庁",
+    zhCN: "辉山厅",
+    pronunciationJa: "きざんちょう",
+    tags: [ "liyue", "organization" ],
+  },
+  {
+    en: "Shenglu Hall",
+    ja: "盛露庁",
+    zhCN: "盛露厅",
+    pronunciationJa: "せいろちょう",
+    tags: [ "liyue", "organization" ],
+  },
+  {
+    en: "Guhua Clan",
+    ja: "古華派",
+    zhCN: "古华派",
+    pronunciationJa: "こかは",
+    tags: [ "liyue", "organization" ],
+  },
+  {
+    en: "Feiyun Commerce Guild",
+    ja: "飛雲商会",
+    zhCN: "飞云商会",
+    pronunciationJa: "ひうんしょうかい",
+    tags: [ "liyue", "organization" ],
+  },
+  {
+    en: "The Crux Fleet",
+    ja: "南十字船隊",
+    zhCN: "南十字船队",
+    pronunciationJa: "みなみじゅうじせんたい",
+    tags: [ "liyue", "organization" ],
+    notes: "単に「南十字」(\"The Crux\") と略して表記される場合もある。",
+  },
+  {
+    en: "Alcor",
+    ja: "死兆星号",
+    zhCN: "死兆星号",
+    pronunciationJa: "しちょうせいごう",
+    tags: [ "liyue", "organization", "location", "facility" ],
+    notes: "Alcor は北斗七星の近くにある星で、日本ではカタカナでアルコルと記されるが、異称として死兆星とも呼ばれる。",
+  },
+  {
+    en: "Yun-Han Opera Troupe",
+    ja: "雲翰社",
+    zhCN: "云翰社",
+    pronunciationJa: "うんかんしゃ",
+    tags: [ "liyue", "organization" ],
+  },
+
+  //
+  // Inazuma
+  //
+  {
+    en: "Grand Narukami Shrine",
+    ja: "鳴神大社",
+    zhCN: "鸣神大社",
+    pronunciationJa: "なるかみおおやしろ",
+    tags: [ "inazuma", "organization", "location", "facility" ],
+  },
+  {
+    en: "Tri-Commission",
+    ja: "三奉行",
+    zhCN: "三奉行",
+    pronunciationJa: "さんぶぎょう",
+    tags: [ "inazuma", "organization" ],
+  },
+  {
+    en: "Kanjou Commission",
+    ja: "勘定奉行",
+    zhCN: "勘定奉行",
+    pronunciationJa: "かんじょうぶぎょう",
+    tags: [ "inazuma", "organization" ],
+  },
+  {
+    en: "Tenryou Commission",
+    ja: "天領奉行",
+    zhCN: "天领奉行",
+    pronunciationJa: "てんりょうぶぎょう",
+    tags: [ "inazuma", "organization" ],
+  },
+  {
+    en: "Yashiro Commission",
+    ja: "社奉行",
+    zhCN: "社奉行",
+    pronunciationJa: "しゃぶぎょう",
+    notes: "日本語の読みは「やしろぶぎょう」ではなく「しゃぶぎょう」が正しい。",
+    tags: [ "inazuma", "organization" ],
+  },
+  {
+    en: "Shuumatsuban",
+    ja: "終末番",
+    zhCN: "终末番",
+    pronunciationJa: "しゅうまつばん",
+    tags: [ "inazuma", "organization" ],
+  },
+  {
+    en: "Kamisato Clan",
+    ja: "神里家",
+    zhCN: "神里家",
+    tags: [ "organization" ],
+  },
+  {
+    en: "Shogunate",
+    ja: "幕府",
+    zhCN: "幕府",
+    pronunciationJa: "ばくふ",
+    tags: [ "inazuma", "organization" ],
+  },
+  {
+    en: "resistance",
+    ja: "抵抗軍",
+    zhCN: "反抗军",
+    pronunciationJa: "ていこうぐん",
+    tags: [ "inazuma", "organization" ],
+  },
+  {
+    en: "Arataki Gang",
+    ja: "荒瀧派",
+    zhCN: "荒泷派",
+    pronunciationJa: "あらたきは",
+    tags: [ "inazuma", "organization" ],
+  },
+  {
+    en: "Komaniya Express",
+    ja: "狛荷屋",
+    zhCN: "狛荷屋",
+    pronunciationJa: "こまにや",
+    tags: [ "inazuma", "organization" ],
+    notes: "綺良々の所属する配達会社",
+    pinyins: [{ char: "狛", pron: "bo2" }],
+  },
+
+  {
+    en: "Gourmet Supremos",
+    ja: "全能グルメチーム",
+    zhCN: "全能美食队",
+    pronunciationJa: "ぜんのうグルメチーム",
+    tags: [ "organization" ],
+  },
+
+  //
+  // Sumeru
+  //
+  {
+    en: "Sumeru Akademiya",
+    ja: "スメール教令院",
+    zhCN: "须弥教令院",
+    pronunciationJa: "スメールきょうれいいん",
+    tags: [ "sumeru", "organization", "location", "facility" ],
+    variants: {
+      en: [ "Sumeru Academia" ],
+    },
+    notes: "英語版では v2.8 で Sumeru Academia から変更された。",
+  },
+  {
+    en: "The Akademiya",
+    ja: "教令院",
+    zhCN: "教令院",
+    pronunciationJa: "きょうれいいん",
+    tags: [ "sumeru", "organization", "location", "facility" ],
+    notes: "スメール教令院のマップ上の表記",
+  },
+  {
+    en: "Forest Rangers / Rebel",
+    ja: "レンジャー",
+    zhCN: "巡林小队",
+    notes: "Forest Rangers は、ティナリやコレイの所属するスメールの組織。Rebel は、不定期開催の期間限定イベント「風の行方」(Windtrace) におけるかくれんぼの隠れる側。どちらも日本語では「レンジャー」となっている。",
+    tags: [ "sumeru", "organization", "event" ],
+  },
+  {
+    en: "Temple of Silence",
+    ja: "沈黙の殿",
+    zhCN: "缄默之殿",
+    tags: [ "sumeru", "organization" ],
+  },
+  {
+    en: "Alliance of the Twenty-Nine Ocean Deys",
+    ja: "二十九オーシャンデイズ連盟",
+    zhCN: "二十九海洋代伊联盟",
+    pronunciationJa: "にじゅうきゅうオーシャンデイズれんめい",
+    tags: [ "sumeru", "organization" ],
+    notes: "Dey とは、史実ではオスマン帝国支配下のアルジェリア、リビア、チュニジアなどの支配者に与えられた称号のこと。参考: [Wikipedia](https://ja.wikipedia.org/wiki/%E3%83%87%E3%82%A4_(%E3%82%AA%E3%82%B9%E3%83%9E%E3%83%B3%E5%B8%9D%E5%9B%BD))",
+  },
+  {
+    en: "Corps of Thirty",
+    ja: "三十人団",
+    pronunciationJa: "さんじゅうにんだん",
+    zhCN: "三十人团",
+    tags: [ "sumeru", "organization" ],
+  },
+  {
+    en: "Ayn Al-Ahmar",
+    ja: "アフマルの目",
+    pronunciationJa: "アフマルのめ",
+    zhCN: "阿赫玛尔之眼",
+    tags: [ "sumeru", "organization" ],
+    notes: "神王のレリクス傘下のエルマイト旅団の1つ",
+  },
+  {
+    en: "Gilded Journey",
+    ja: "金砂の旅",
+    zhCN: "金砂之旅",
+    tags: [ "sumeru", "organization" ],
+  },
+  {
+    en: "Blazing Beasts",
+    ja: "熾光の猟獣",
+    zhCN: "炽光猎兽",
+    pronunciationJa: "しこうのりょうじゅう",
+    tags: [ "sumeru", "organization" ],
+    notes: "ディシアの所属するエルマイト旅団",
+  },
+  {
+    en: "Deshret's Relics",
+    ja: "神王のレリクス",
+    zhCN: "神王之遗",
+    pronunciationJa: "しんのうのレリクス",
+    tags: [ "sumeru", "organization" ],
+    notes: "ディシアの伝説任務に登場するエルマイト旅団の1つ",
+  },
+  {
+    en: "Dakan Al-Ahmar",
+    ja: "アフマルの鬚",
+    zhCN: "阿赫玛尔之须",
+    pronunciationJa: "アフマルのひげ",
+    tags: [ "sumeru", "organization" ],
+    notes: "神王のレリクス傘下のエルマイト旅団の1つ",
+    variants: {
+      ja: [ "アフマルの髭", "アフマルの髯" ],
+    },
+  },
+  {
+    en: "Tanit tribe",
+    ja: "タニット部族",
+    zhCN: "塔尼特部族",
+    pronunciationJa: "タニットぶぞく",
+    tags: [ "sumeru", "organization" ],
+  },
+
+  {
+    en: "Order of Skeptics",
+    ja: "スケプティック団",
+    zhCN: "矫论团",
+    pronunciationJa: "スケプティックだん",
+    tags: [ "sumeru", "organization" ],
+    notes: "\"Order of\" を省略し、単に \"Skeptics\" でスケプティック団のことを指す場合もある",
+  },
+  {
+    en: "Skeptic",
+    ja: "「スケプティック団」メンバー",
+    zhCN: "「矫论团」成员",
+    pronunciationJa: "スケプティックだんメンバー",
+    tags: [ "sumeru", "title" ],
+  },
+  {
+    en: "Nagarjunites",
+    ja: "ナガルジュナ団",
+    zhCN: "那伽朱那团",
+    pronunciationJa: "ナガルジュナだん",
+    tags: [ "sumeru", "organization" ],
+    notes: "スケプティック団の、雨林側からの呼び方",
+  },
+  {
+    en: "Tighnarians",
+    ja: "ティナル人",
+    zhCN: "提纳勒人",
+    pronunciationJa: "ティナルじん",
+    tags: [ "sumeru" ],
+  },
+  {
+    en: "Valka Shuna",
+    ja: "ワルカシュナ",
+    zhCN: "巴螺迦修那",
+    tags: [ "sumeru", "organization" ],
+  },
+
+  //
+  // Fontaine
+  //
+  {
+    en: "Fontaine Research Institute",
+    ja: "フォンテーヌ科学院",
+    zhCN: "枫丹科学院",
+    pronunciationJa: "フォンテーヌかがくいん",
+    tags: [ "fontaine", "organization" ],
+  },
+  {
+    en: "Fontaine Research Institute of Kinetic Energy Engineering",
+    ja: "フォンテーヌ運動エネルギー工学科学研究院",
+    zhCN: "枫丹动能工程科学研究院",
+    pronunciationJa: "フォンテーヌうんどうエネルギーこうがくかがくけんきゅういん",
+    tags: [ "fontaine", "organization" ],
+    notes: "フォンテーヌ科学院の正式名称",
+  },
+  {
+    en: "The Steambird",
+    ja: "スチームバード新聞",
+    zhCN: "蒸汽鸟报",
+    pronunciationJa: "スチームバードしんぶん",
+    tags: [ "fontaine", "organization" ],
+  },
+  {
+    en: "The Steambird publishing house",
+    ja: "スチームバード新聞社",
+    zhCN: "蒸汽鸟报社",
+    pronunciationJa: "スチームバードしんぶんしゃ",
+    tags: [ "fontaine", "organization", "facility" ],
+  },
+  {
+    en: "Spina di Rosula",
+    ja: "棘薔薇の会",
+    zhCN: "刺玫会",
+    pronunciationJa: "スピナ・ディ・ロースラ",
+    tags: [ "fontaine", "organization" ],
+  },
+  {
+    en: "Daydream Club",
+    ja: "空想クラブ",
+    zhCN: "空想俱乐部",
+    pronunciationJa: "くうそうクラブ",
+    tags: [ "fontaine", "organization" ],
+  },
+  {
+    en: "Maison Gardiennage",
+    ja: "執律庭",
+    zhCN: "执律庭",
+    pronunciationJa: "しつりつてい", // TODO Need Check
+    tags: [ "fontaine", "organization" ],
+  },
+  {
+    en: "Maison Ordalie",
+    ja: "検律庭",
+    zhCN: "检律庭",
+    pronunciationJa: "けんりつてい", // TODO Need Check
+    tags: [ "fontaine", "organization" ],
+  },
+  {
+    en: "Maison Gestion",
+    ja: "共律庭",
+    zhCN: "复律庭",
+    pronunciationJa: "きょうりつてい", // TODO Need Check
+    tags: [ "fontaine", "organization" ],
+  },
+  {
+    en: "Special Security and Surveillance Patrol",
+    ja: "特巡隊",
+    zhCN: "特巡队",
+    pronunciationJa: "とくじゅんたい", // TODO Need Check
+    tags: [ "fontaine", "organization" ],
+  },
+  {
+    en: "Gardes",
+    ja: "警察隊",
+    zhCN: "警备队",
+    tags: [ "fontaine", "organization" ],
+  },
+  {
+    en: "Marechaussee Phantom",
+    ja: "マレショーセ・ファントム",
+    zhCN: "逐影庭",
+    tags: [ "fontaine", "organization" ],
+  },
+  {
+    en: "Hotel Bouffes d'ete",
+    ja: "ブーフ・ド・エテの館",
+    zhCN: "布法蒂公馆",
+    tags: [ "fontaine", "organization" ],
+  },
+  {
+    en: "Confrerie of Cabriere",
+    ja: "カブリエール商会",
+    zhCN: "卡布里埃商会",
+    tags: [ "fontaine", "organization" ],
+  },
+  {
+    en: "The Narzissenkreuz Ordo",
+    ja: "水仙十字結社",
+    zhCN: "水仙十字结社",
+    pronunciationJa: "すいせんじゅうじけっしゃ",
+    tags: [ "fontaine", "organization" ],
+  },
+  {
+    en: "Narzissenkreuz Institute",
+    ja: "水仙十字院",
+    zhCN: "水仙十字院",
+    pronunciationJa: "すいせんじゅうじいん",
+    tags: [ "fontaine", "organization" ],
+  },
+  {
+    en: "Liliacruces Forum",
+    ja: "十字鈴蘭学会",
+    zhCN: "十字铃兰学会",
+    pronunciationJa: "じゅうじすずらんがっかい",
+    tags: [ "fontaine", "organization" ],
+  },
+  {
+    en: "House of the Hearth",
+    ja: "壁炉の家",
+    zhCN: "壁炉之家",
+    pronunciationJa: "ハウス・オブ・ハース",
+    tags: [ "fontaine", "fatui", "organization" ],
+    notes: "召使の運営する孤児院",
+    notesEn: "An orphanage run by The Knave",
+  },
+
+  //
+  // Natlan
+  //
+  {
+    en: "Saurian Relics Association",
+    ja: "龍の遺物研究会",  // Notes: この項目は「竜」ではなく「龍」の文字が使われている
+    zhCN: "龙遗物研究协会",
+    pronunciationJa: "りゅうのいぶつけんきゅうかい",
+    tags: [ "natlan", "organization" ],
+  },
+  {
+    en: "\"Blood of Egungun\"",
+    ja: "「エグングンの血」", // Notes: イアンサのプロフィール > キャラクターストーリー1より
+    zhCN: "「沃贡贡之血」",
+    pronunciationJa: "エグングンのち",
+    notes: "イアンサが属する部族",
+    tags: [ "natlan" ],
+  },
+
+  //
+  // Snezhnaya & Fatui
+  //
+  {
+    en: "Fatui",
+    ja: "ファデュイ / 愚人衆",
+    zhCN: "愚人众",
+    tags: [ "fatui", "organization" ],
+  },
+  {
+    en: "Voynich Guild",
+    ja: "ヴォイニッチ商会",
+    zhCN: "伏尼契商会",
+    pronunciationJa: "ヴォイニッチしょうかい",
+    tags: [ "snezhnaya", "organization" ],
+    notes: "v5.1 期間限定イベント「百貨珍品」の中で、商人の立本からもたらされた情報",
+  },
+  {
+    en: "LightKeepers",
+    ja: "ライトキーバー",
+    zhCN: "执灯人",
+    notes: "期間限定Webイベント「空月の空」の情報",
+    tags: [ "snezhnaya", "organization" ],
+  },
+  {
+    en: "The Wild Hunt",
+    ja: "ワイルドハント",
+    zhCN: "狂猎",
+    notes: "アビスの軍勢。期間限定Webイベント「空月の空」の情報",
+    tags: [ "snezhnaya", "organization" ],
+  },
+  {
+    en: "Frostmoon Scions",
+    ja: "霜月の子",
+    zhCN: "霜月之子",
+    pronunciationJa: "しもつきのこ",
+    notes: "期間限定Webイベント「空月の空」の情報",
+    tags: [ "snezhnaya" ],
+  },
+
+  //
+  // Khaenri'ah
+  //
+  {
+    en: "Crimson Moon",
+    ja: "赤月",
+    zhCN: "赤月",
+    pronunciationJa: "せきげつ",
+    tags: [ "khaenriah", "organization" ],
+    notes: "カールンイアの古代王朝",
+  },
+  {
+    en: "Eclipse",
+    ja: "黒日",
+    zhCN: "黑日",
+    pronunciationJa: "こくじつ", // TODO Need Check
+    tags: [ "khaenriah", "organization" ],
+    notes: "カールンイアの古代王朝",
+  },
+] as const satisfies SourceWord[];

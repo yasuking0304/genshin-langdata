@@ -1,0 +1,888 @@
+import type { SourceWord } from "../../libs/types.ts";
+
+export default [
+  //
+  // General
+  //
+  {
+    en: "Genshin Impact",
+    ja: "原神 (タイトル)",
+    zhCN: "原神（标题）",
+    pronunciationJa: "げんしん",
+    notes: "ゲームタイトル。神の目を持つ者を指す「原神」は allogene。",
+  },
+  {
+    en: "allogene",
+    ja: "原神",
+    zhCN: "原神",
+    pronunciationJa: "げんしん",
+    notes: "タイトルではなく、神の目を持つ者を意味する言葉としての「原神」。英語版タイトルは Genshin Impact",
+  },
+  {
+    en: "Vision",
+    ja: "神の目",
+    zhCN: "神之眼",
+    pronunciationJa: "かみのめ",
+  },
+  {
+    en: "Gnosis",
+    ja: "神の心",
+    zhCN: "神之心",
+    pronunciationJa: "かみのこころ",
+  },
+  {
+    en: "Delusion",
+    ja: "邪眼",
+    zhCN: "邪眼",
+    pronunciationJa: "じゃがん",
+    notes: "delusion の原義は「欺くこと」「妄想」",
+  },
+  {
+    en: "God",
+    ja: "魔神",
+    zhCN: "魔神",
+    pronunciationJa: "まじん",
+    tags: [ "title" ],
+    notes: "七神を「(元素名)神」(例: 風神) と呼ぶ場合に関しては Archon (例: Anemo Archon) と God (例: Anemo God, God of Anemo) の両表記が混在している一方で、それ以外の魔神については God でのみ表記され、Archon は用いられない。(例: 塩の魔神/God of Salt, 塵の魔神/God of Dust) そのため、God は七神を含めた魔神全般を指すのに対し、Archon は七神のみを指す言葉であると推測される。但し、「魔神戦争」(Archon War) や「魔神任務」(Archon Quest) など、「魔神」が \"Archon\" と訳されている箇所もある。Archon が七神のみを指しているという前提に基づけば、これらは英語版では「七神を決めるための戦争」「七神を訪ねる任務」というニュアンスが込められていると解釈することも可能である。",
+  },
+  {
+    en: "Archon War",
+    ja: "魔神戦争",
+    zhCN: "魔神战争",
+    pronunciationJa: "まじんせんそう",
+  },
+  {
+    en: "Emergency Food",
+    ja: "非常食",
+    zhCN: "应急食品",
+    pronunciationJa: "ひじょうしょく",
+    tags: [ "title" ],
+  },
+  {
+    en: "Ley Line",
+    ja: "地脈",
+    zhCN: "地脉",
+    pronunciationJa: "ちみゃく",
+  },
+  {
+    en: "The Seven",
+    ja: "七神 / 俗世の七執政",
+    zhCN: "七神 / 尘世七执政",
+    pronunciationJa: "しちしん / ぞくせのしちしっせい",
+    tags: [ "title" ],
+    notes: "英語版には俗世の七執政に対応する訳語はなく、七神と同様に The Seven と表される",
+  },
+  {
+    en: "erode",
+    ja: "摩耗する",
+    zhCN: "磨损",
+    pronunciationJa: "まもうする",
+  },
+  {
+    en: "gaze of the god",
+    ja: "神の眼差し",
+    zhCN: "神明的视线",
+    pronunciationJa: "かみのまなざし",
+  },
+  {
+    en: "freedom",
+    ja: "自由",
+    zhCN: "自由",
+    pronunciationJa: "じゆう",
+    tags: [ "mondstadt" ],
+  },
+  {
+    en: "contract",
+    ja: "契約",
+    zhCN: "契约",
+    pronunciationJa: "けいやく",
+    tags: [ "liyue" ],
+  },
+  {
+    en: "eternity",
+    ja: "永遠",
+    zhCN: "永恒",
+    pronunciationJa: "えいえん",
+    tags: [ "inazuma" ],
+  },
+  {
+    en: "wisdom",
+    ja: "知恵",
+    zhCN: "智慧",
+    pronunciationJa: "ちえ",
+    tags: [ "sumeru" ],
+  },
+  {
+    en: "justice",
+    ja: "正義",
+    zhCN: "正义",
+    pronunciationJa: "せいぎ",
+    tags: [ "fontaine" ],
+  },
+
+  //
+  // Mondstadt
+  //
+  {
+    en: "Holy Lyre der Himmel",
+    ja: "天空のライアー",
+    zhCN: "天空之琴",
+    pronunciationJa: "てんくうのライアー",
+    tags: [ "mondstadt" ],
+  },
+  {
+    en: "Ludi Harpastum",
+    ja: "バドルドー祭",
+    zhCN: "羽球节",
+    pronunciationJa: "バドルドーさい",
+    tags: [ "mondstadt" ],
+  },
+  {
+    en: "harpastum / harpasta",
+    ja: "バドルドー",
+    zhCN: "羽球",
+    notes: "恐らく harpastum が単数形、harpasta が複数形。原義はローマ帝国時代の球技を意味するラテン語。",
+    tags: [ "mondstadt" ],
+  },
+  {
+    en: "Dandelion Wine",
+    ja: "蒲公英酒",
+    zhCN: "蒲公英酒",
+    pronunciationJa: "ダンデライオンしゅ",
+    tags: [ "mondstadt" ],
+    variants: {
+      ja: [ "ダンデライオン酒", "ダンディライオン酒", "ダンディライオンしゅ" ],
+    },
+  },
+
+  //
+  // Liyue
+  //
+  {
+    en: "Adeptus / Adepti",
+    ja: "仙人",
+    zhCN: "仙人",
+    tags: [ "liyue" ],
+    notes: "Adeptus が単数形、Adepti が複数形",
+  },
+  {
+    en: "the mighty and illuminated adepti",
+    ja: "三眼五顕仙人",
+    zhCN: "三眼五显仙人",
+    pronunciationJa: "さんがんごけんせんにん",
+    tags: [ "liyue", "title" ],
+    notes: "単数の場合は the mighty and illuminated adeptus",
+  },
+  {
+    en: "Rite of Descension",
+    ja: "迎仙儀式",
+    zhCN: "请仙",
+    pronunciationJa: "げいせんぎしき",
+    tags: [ "liyue" ],
+  },
+  {
+    en: "Rite of Parting",
+    ja: "送仙儀式",
+    zhCN: "送仙典仪",
+    pronunciationJa: "そうせんぎしき",
+    tags: [ "liyue" ],
+  },
+  {
+    en: "Exuvia",
+    ja: "仙祖の亡骸",
+    zhCN: "仙祖法蜕",
+    pronunciationJa: "せんぞのなきがら",
+    tags: [ "liyue" ],
+  },
+  {
+    en: "karma",
+    ja: "業障",
+    zhCN: "业障",
+    pronunciationJa: "ごっしょう",
+    tags: [ "liyue" ],
+  },
+  {
+    en: "Wrath of the Rock",
+    ja: "岩食いの刑",
+    zhCN: "食岩之罚",
+    pronunciationJa: "いわくいのけい",
+    tags: [ "liyue" ],
+  },
+  {
+    en: "Cocogoat",
+    ja: "ココナッツヒツジ",
+    zhCN: "椰羊",
+    tags: [ "liyue" ],
+  },
+  {
+    en: "Li style",
+    ja: "璃菜",
+    zhCN: "璃菜",
+    pronunciationJa: "りーさい",
+    tags: [ "liyue" ],
+  },
+  {
+    en: "Yue style",
+    ja: "月菜",
+    zhCN: "月菜",
+    pronunciationJa: "ゆえさい",
+    tags: [ "liyue" ],
+  },
+  {
+    en: "ascension ceremony",
+    ja: "昇空儀式",
+    zhCN: "升空仪式",
+    pronunciationJa: "しょうくうぎしき",
+    tags: [ "liyue" ],
+  },
+  {
+    en: "The Divine Damsel of Devastation",
+    ja: "神女劈観",
+    zhCN: "神女劈观",
+    pronunciationJa: "しんにょへきかん",
+    tags: [ "liyue" ],
+  },
+  {
+    en: "Plaustrite",
+    ja: "浮生の石",
+    zhCN: "浮生石",
+    pronunciationJa: "ふじょうのいし",
+    tags: [ "liyue" ],
+  },
+  {
+    en: "Sunset Vermillionite",
+    ja: "鳴霞浮生石",
+    zhCN: "鸣霞浮生石",
+    pronunciationJa: "めいかふじょういし",
+    tags: [ "liyue" ],
+  },
+  {
+    en: "Wonder Core",
+    ja: "千奇核心",
+    zhCN: "千奇核心",
+    pronunciationJa: "せんきかくしん",
+    tags: [ "liyue", "item" ],
+  },
+  {
+    en: "Adepti Sigil",
+    ja: "仙家呪符",
+    zhCN: "仙家符箓",
+    pronunciationJa: "せんかじゅふ",
+    tags: [ "liyue", "item" ],
+  },
+  {
+    en: "The Crux Clash",
+    ja: "南十字武闘会",
+    zhCN: "南十字武斗会",
+    pronunciationJa: "みなみじゅうじぶとうかい",
+    tags: [ "liyue", "inazuma" ],
+  },
+  {
+    en: "Adeptus name",
+    ja: "仙名 / 仙号",
+    zhCN: "仙名 / 仙号",
+    pronunciationJa: "せんめい / せんごう",
+    tags: [ "liyue", "title" ],
+    notes: "仙人に対しての称号。日本語や中国語の会話で、パイモンは留雲借風真君に申鶴の「仙名」を尋ね、塵歌壺でマルは自分の「仙号」は…と語っている。人型とそれ以外で使い分けている模様。英語ではどちらも同じ",
+    notesZh: "对隐士的称号。在中文和日语的对话中，派蒙向留云借风真君询问申鹤的「仙名」，在尘歌壶中，阿圆说他的「仙号」是。人形生物和其他类型之间的用法似乎有所不同。在英语中，两者的待遇相同",
+  },
+  {
+    en: "Adeptal energy",  // notes: 閑雲の伝説任務「四方山話」の電光両輪疾走機での説明など、一番多く使われている英語表記
+    ja: "仙力",
+    zhCN: "仙力",
+    pronunciationJa: "せんりき",
+    tags: [ "liyue" ],
+    notes: "仙力の英語訳としては adeptal energy が最もよく使われているが、その他 \"their strength to man it\" や \"a portion of their strength\" などの表現も用いられる",
+    variants: {
+      en: [
+        "their strength to man it", // notes: 魔人任務 第一章第三幕「回天」で凝光が「新帰終機」の説明で語っている英語表記
+        "a portion of their strength", // notes: 七七のキャラクターストーリ4の説明の英語表記
+      ],
+    },
+  },
+
+  //
+  // Inazuma
+  //
+  {
+    en: "Vision Hunt Decree",
+    ja: "目狩り令",
+    zhCN: "眼狩令",
+    pronunciationJa: "めがりれい",
+    tags: [ "inazuma" ],
+  },
+  {
+    en: "Sakoku Decree",
+    ja: "鎖国令",
+    zhCN: "锁国令",
+    pronunciationJa: "さこくれい",
+    tags: [ "inazuma" ],
+    notes: "単に「鎖国」とだけ言う場合、\"lockdown\" と表現される場合もある",
+  },
+  {
+    en: "Musou no Hitotachi",
+    ja: "無想の一太刀",
+    zhCN: "无想的一刀",
+    pronunciationJa: "むそうのひとたち",
+    tags: [ "inazuma" ],
+    variants: {
+      ja: [ "無相の一太刀", "無双の一太刀" ],
+      zhCN: [ "五香的一刀" ],
+    },
+  },
+  {
+    en: "Raiden Gokaden",
+    ja: "雷電五箇伝",
+    zhCN: "雷电五传",
+    pronunciationJa: "らいでんごかでん",
+    tags: [ "inazuma" ],
+    notes: "稲妻の刀鍛冶の流派5つを指す。英語版ではローマ字表記そのままのため、five schools of the craft という注釈が付く場合がある",
+  },
+  {
+    en: "Amenoma Art",
+    ja: "天目流",
+    zhCN: "天目流",
+    pronunciationJa: "あめのまりゅう",
+    tags: [ "inazuma" ],
+    notes: "雷電五箇伝の1つ",
+  },
+  {
+    en: "Electro Mitsudomoe",
+    ja: "雷の三つ巴",
+    zhCN: "雷之三重巴",
+    pronunciationJa: "かみなりのみつどもえ",
+    tags: [ "inazuma" ],
+  },
+  {
+    en: "perch",
+    ja: "止まり木",
+    zhCN: "栖木",
+    pronunciationJa: "とまりぎ",
+    tags: [ "inazuma" ],
+  },
+  {
+    en: "Maushiro",
+    ja: "マウシロ",
+    zhCN: "木簧笛",
+    tags: [ "inazuma" ],
+  },
+  {
+    en: "Sunchildren",
+    ja: "太陽の子",
+    zhCN: "太阳之子",
+    tags: [ "inazuma" ],
+    notes: "「パエトーン」とルビが振られており同義",
+    notesEn: "This word is used with a ruby \"Phaethons\", so Sunchildren and Phaethons are same meaning.",
+  },
+  {
+    en: "Phaethon",
+    ja: "パエトーン",
+    zhCN: "法厄同",
+    tags: [ "inazuma" ],
+    notes: "「太陽の子」に対して「パエトーン」とルビが振られており同義",
+    notesEn: "This word is used as a ruby for \"Sunchildren\", so Sunchildren and Phaethons are same meaning.",
+  },
+  {
+    en: "Youkai powers",
+    ja: "妖力",  // notes: 八重神子のキャラクターストーリー4や綺良々のボイス「神の目」について…で語られている
+    zhCN: "妖力",
+    pronunciationJa: "ようりょく",
+    tags: [ "inazuma" ],
+  },
+
+  //
+  // Sumeru
+  //
+  {
+    en: "Darshan",
+    ja: "学派 / 学院",
+    zhCN: "学派 / 学院",
+    tags: [ "sumeru" ],
+    notes: "英語版では学派も学院も区別されずに Darshan と呼ばれているようである。原義はサンスクリット語で (特に聖人や神像などを) 見ること",
+  },
+  {
+    en: "six Darshans",
+    ja: "六大学派",
+    zhCN: "六大学派",
+    tags: [ "sumeru" ],
+  },
+  {
+    en: "Amurta",
+    ja: "生論派 / アムリタ学院",
+    zhCN: "生论派 / 阿弥利多学院",
+    tags: [ "sumeru" ],
+    notes: "英語版では「生論派」と「アムリタ学院」は区別されていないようである。\"Amurta Darshan\" と Darshan (学派 / 学院) を付けて表記される場合もある",
+  },
+  {
+    en: "Rtawahist",
+    ja: "明論派 / ルタワヒスト学院",
+    zhCN: "明论派 / 梨多梵谛学院",
+    tags: [ "sumeru" ],
+    notes: "英語版では「明論派」と「ルタワヒスト学院」は区別されていないようである。\"Rtawahist Darshan\" と Darshan (学派 / 学院) を付けて表記される場合もある",
+  },
+  {
+    en: "Spantamad",
+    ja: "素論派 / スパンタマッド学院",
+    zhCN: "素论派 / 悉般多摩学院",
+    tags: [ "sumeru" ],
+    notes: "英語版では「素論派」と「スパンタマッド学院」は区別されていないようである。\"Spantamad Darshan\" と Darshan (学派 / 学院) を付けて表記される場合もあると思われる",
+  },
+  {
+    en: "Driyosh",
+    ja: "ダリオッシュ",
+    zhCN: "游学者", // TODO: Need check
+    tags: [ "sumeru", "title" ],
+    notes: "遊学者を意味する言葉。スメール教令院の素論派に多いとされる",
+  },
+  {
+    en: "Haravatat",
+    ja: "知論派 / ハルヴァタット学院",
+    zhCN: "知论派 / 室罗婆耽学院",
+    tags: [ "sumeru" ],
+    notes: "英語版では「知論派」と「ハルヴァタット学院」は区別されていないようである。\"Haravatat Darshan\" と Darshan (学派 / 学院) を付けて表記される場合もあると思われる",
+  },
+  {
+    en: "Vahumana",
+    ja: "因論派 / ヴァフマナ学院",
+    zhCN: "因论派 / 伐护末那学院",
+    tags: [ "sumeru" ],
+    notes: "英語版では「因論派」と「ヴァフマナ学院」は区別されていないようである。\"Vahumana Darshan\" と Darshan (学派 / 学院) を付けて表記される場合もあると思われる",
+  },
+  {
+    en: "Kshahrewar",
+    ja: "妙論派 / クシャレワー学院",
+    zhCN: "妙论派 / 刹诃伐罗学院",
+    tags: [ "sumeru" ],
+    notes: "英語版では「妙論派」と「クシャレワー学院」は区別されていないようである。\"Kshahrewar Darshan\" と Darshan (学派 / 学院) を付けて表記される場合もあると思われる",
+  },
+  {
+    en: "Akasha",
+    ja: "アーカーシャ",
+    zhCN: "虚空",
+    tags: [ "sumeru" ],
+  },
+  {
+    en: "Akasha Terminal",
+    ja: "アーカーシャ端末",
+    zhCN: "虚空终端",
+    tags: [ "sumeru" ],
+  },
+  {
+    en: "Neo Akasha Terminal",
+    ja: "新型アーカーシャ端末",
+    zhCN: "新型虚空终端",
+    tags: [ "object", "sumeru" ],
+  },
+  {
+    en: "Mahamata",
+    ja: "教令官",
+    zhCN: "教令官",
+    tags: [ "title", "sumeru" ],
+  },
+  {
+    en: "Spirit Borneol",
+    ja: "パラハァム",
+    zhCN: "灵酚香",
+    tags: [ "sumeru" ],
+  },
+  {
+    en: "Satyavada Life",
+    ja: "サティアワダライフ",
+    zhCN: "林居狂语期",
+    tags: [ "sumeru" ],
+  },
+  {
+    en: "Paripurna Life",
+    ja: "パリプーナライフ",
+    zhCN: "寂静圆满期",
+    tags: [ "sumeru" ],
+  },
+  {
+    en: "Sabzeruz Festival",
+    ja: "花神誕日 / 花神誕祭",
+    zhCN: "花神诞日 / 花神诞祭",
+    pronunciationJa: "かしんたんじつ / かしんたんさい",
+    notes: "英語版では両者は区別されていないように思われる",
+    tags: [ "sumeru" ],
+  },
+  {
+    en: "samsara cycle",
+    ja: "輪廻",
+    zhCN: "轮回",
+    pronunciationJa: "りんね",
+    notes: "現実の仏教・ジャイナ教における「輪廻」も \"Saṃsāra\" と呼ばれる",
+    tags: [ "sumeru" ],
+  },
+  {
+    en: "Jnagarbha Day",
+    ja: "ジュニャーナガルバの日",
+    zhCN: "识藏日",
+    pronunciationJa: "ジュニャーナガルバのひ",
+    tags: [ "sumeru" ],
+  },
+  {
+    en: "Knowledge Capsule / Canned Knowledge",
+    ja: "缶詰知識",
+    zhCN: "罐装知识",
+    pronunciationJa: "かんづめちしき",
+    tags: [ "sumeru" ],
+  },
+  {
+    en: "Divine Knowledge Capsule",
+    ja: "神の缶詰知識",
+    zhCN: "神明罐装知识",
+    pronunciationJa: "かみのかんづめちしき",
+    tags: [ "sumeru" ],
+  },
+  {
+    en: "Grand Conservator",
+    ja: "グランドキュレーター",
+    zhCN: "大掌书",
+    tags: [ "title", "sumeru" ],
+  },
+  {
+    en: "Dastur",
+    ja: "ダステア",
+    zhCN: "陀裟多",
+    tags: [ "title", "sumeru" ],
+  },
+  {
+    en: "Hermanubis",
+    ja: "ヘルマヌビス",
+    zhCN: "赫曼努比斯",
+    tags: [ "sumeru" ],
+    notes: "英語の発音はハーマニュビス",
+  },
+  {
+    en: "Dev",
+    ja: "ディフ",
+    zhCN: "迪弗",
+    tags: [ "sumeru" ],
+    notes: "スメールの言葉で、「魔物」を指す",
+  },
+  // ▼▼ Aranaras' language ▼▼
+  {
+    en: "Nara",
+    ja: "ナラ",
+    zhCN: "那菈",
+    tags: [ "sumeru" ],
+    notes: "アランナラの言葉で「人」",
+    pinyins: [{ char: "菈", pron: "la1" }],
+  },
+  {
+    en: "Festival Utsava",
+    ja: "ウツァヴ祭",
+    zhCN: "无忧节",
+    tags: [ "sumeru" ],
+  },
+  {
+    en: "Big Iron Chunks",
+    ja: "大鉄塊",
+    zhCN: "大铁块",
+    tags: [ "sumeru" ],
+    notes: "アランナラの言葉で遺跡機械のこと",
+  },
+  {
+    en: "Marana",
+    ja: "マラーナ",
+    zhCN: "无留陀",
+    tags: [ "sumeru" ],
+    notes: "アランナラの言葉で死域のこと",
+  },
+  {
+    en: "Vana",
+    ja: "ヴァーナ",
+    zhCN: "桓那",
+    tags: [ "sumeru" ],
+    notes: "アランナラの言葉で「森」",
+    pinyins: [{ char: "桓", pron: "huan2" }],
+  },
+  {
+    en: "Valuka",
+    ja: "ワルカ",
+    zhCN: "巴螺迦",
+    tags: [ "sumeru" ],
+    notes: "アランナラの言葉で「砂」",
+  },
+  {
+    en: "Ararakalari",
+    ja: "アランラカラリ",
+    zhCN: "兰迦拉梨",
+    tags: [ "sumeru" ],
+    notes: "アランナラの持つ技",
+  },
+  // ▲▲ Aranaras' language ▲▲
+  {
+    en: "rainforest",
+    ja: "雨林",
+    zhCN: "雨林",
+    pronunciationJa: "うりん",
+    tags: [ "sumeru" ],
+    notes: "砂漠に対して、スメール東部の雨林エリアや、そこに住んでいる、または出身の人間を示す",
+    examples: [{
+      en: "Besides, who knows how the people in the rainforest will treat her?",
+      ja: "それに、雨林側の奴らに除け者にされないか心配だ。",
+      zhCN: "而且…也不知道雨林那边的人会不会排挤她。",
+      ref: "エピソード ディシア「砂境の晨光」(Character Teaser - \"Dehya: Dawn Over the Sand\")",
+      refURL: "https://youtu.be/mn4GqsKs9U0?t=19", // en: https://youtu.be/fmYko2bWjnI?t=17
+    }],
+  },
+  {
+    en: "Village Keeper",
+    ja: "グラマパラ",
+    zhCN: "守村人",
+    tags: [ "sumeru" ],
+    notes: "アアル村に追放された、精神に異常をきたした学者のこと",
+  },
+  {
+    en: "Great Vayuvyastra",
+    ja: "大マッハマシン",
+    zhCN: "大风机关",
+    tags: [ "sumeru" ],
+  },
+  {
+    en: "Gurabad",
+    ja: "ジュラバド",
+    zhCN: "居尔城",
+    tags: [ "sumeru" ],
+  },
+  {
+    en: "the Hive",
+    ja: "蜂の巣",
+    zhCN: "蜂巢",
+    tags: [ "sumeru" ],
+    notes: "アルハイゼンの伝説任務で、シラージが構築した集団",
+  },
+  {
+    en: "collective consciousness",
+    ja: "ハイブマインド",
+    zhCN: "集群意识",
+    tags: [ "sumeru" ],
+    notes: "アルハイゼンの伝説任務で、シラージが開発した仕組み",
+  },
+  {
+    en: "The Wall of Hope",
+    ja: "希望の壁",
+    zhCN: "希望之壁",
+    tags: [ "sumeru" ],
+    notes: "ディシアが孤児院に寄付した資金に付けた名前",
+  },
+  {
+    en: "Sign of Apaosha",
+    ja: "焚真の天象",
+    zhCN: "焚真之天象",
+    pronunciationJa: "ふんしんのてんしょう",
+    tags: [ "sumeru" ],
+    notes: "甘露花海の万種母樹の上空にできた、トゥニギの黒淵と繋がっている巨大な穴",
+  },
+  {
+    en: "Amrita",
+    ja: "甘露 / 甘露活水",
+    zhCN: "甘露 / 甘露活水",
+    pronunciationJa: "かんろ / かんろかっすい",
+    tags: [ "sumeru" ],
+  },
+  {
+    en: "Azosite",
+    ja: "アゾス物質",
+    zhCN: "阿索斯物质",
+    pronunciationJa: "アゾスぶっしつ",
+    tags: [ "sumeru" ],
+  },
+  {
+    en: "Rite of Chinvat",
+    ja: "チンワトの儀",
+    zhCN: "离渡之仪",
+    pronunciationJa: "チンワトのぎ",
+    tags: [ "sumeru" ],
+    notes: "世界任務「善悪のクヴァレナ」で執り行う、トゥニギの黒淵から万種母樹内部への道を開くための儀式",
+  },
+  {
+    en: "Rite of Ab-Zohr",
+    ja: "アブゾーアの儀",
+    zhCN: "祭水之仪",
+    pronunciationJa: "アブゾーアのぎ",
+    tags: [ "sumeru" ],
+    notes: "世界任務「善悪のクヴァレナ」で執り行う、焚真の天象を閉じるための儀式",
+  },
+
+  //
+  // Fontaine
+  //
+  {
+    en: "Indemnitium",
+    ja: "律償混合エネルギー",
+    zhCN: "律偿混能",
+    pronunciationJa: "りっしょうこんごうエネルギー",
+    tags: [ "fontaine" ],
+  },
+  {
+    en: "serial disappearances of young women",
+    ja: "連続少女失踪事件",
+    zhCN: "少女连环失踪案",
+    pronunciationJa: "れんぞくしょうじょしっそうじけん",
+    tags: [ "fontaine" ],
+    // related: [ "prelude-of-blancheur-and-noirceur", "as-light-rain-falls-without-reason" ]
+  },
+  {
+    en: "Water from the Primordial Sea / Primordial Water",
+    ja: "原始胎海の水",
+    zhCN: "原始胎海之水",
+    pronunciationJa: "げんしたいかいのみず",
+    tags: [ "fontaine" ],
+  },
+  {
+    en: "Sinthe",
+    ja: "ロシ",
+    zhCN: "乐斯",
+    tags: [ "fontaine" ],
+    notes: "かつてポワソン町で流行った、麻薬のような飲み物",
+  },
+  {
+    en: "Tales of Humanity",
+    ja: "人生いろいろ",
+    zhCN: "人间百态",
+    pronunciationJa: "じんせいいろいろ",
+    tags: [ "fontaine" ],
+    notes: "スチームバード新聞の読者投稿コーナー。フォンテーヌの評判任務はここに投稿されたものが依頼となっている。",
+  },
+  {
+    en: "Book of Revealing",
+    ja: "啓示の書",
+    zhCN: "揭示之书",
+    pronunciationJa: "けいじのしょ",
+    tags: [ "fontaine" ],
+  },
+  {
+    en: "Looking Glass",
+    ja: "謎の鏡",
+    zhCN: "谜镜",
+    pronunciationJa: "なぞのかがみ",
+    tags: [ "fontaine" ],
+  },
+  {
+    en: "world-formula",
+    ja: "世界式",
+    zhCN: "世界式",
+    pronunciationJa: "せかいしき",
+    tags: [ "fontaine" ],
+  },
+  {
+    en: "the Sponsian",
+    ja: "スポンジアン号",
+    zhCN: "斯彭西安号",
+    pronunciationJa: "スポンジアンごう",
+    tags: [ "fontaine" ],
+  },
+  {
+    en: "Remuria",
+    ja: "レムリア",
+    zhCN: "雷穆利亚",
+    tags: [ "fontaine" ],
+  },
+
+  //
+  // Natlan
+  //
+  {
+    en: "\"Pilgrimage\"",
+    ja: "帰火聖夜の巡礼",
+    zhCN: "归火圣夜巡礼",
+    pronunciationJa: "きかせいやのじゅんれい",
+    tags: [ "natlan" ],
+  },
+  {
+    en: "\"Night Warden Wars\"",
+    ja: "夜巡者の戦争",
+    zhCN: "巡夜者战争",
+    pronunciationJa: "よじゅんしゃのせんそう",
+    tags: [ "natlan" ],
+  },
+  {
+    en: "Night Wars",  // Notes:【原神】ストーリームービー「夜明け前」の字幕で確認
+    ja: "夜猟者の戦争",
+    zhCN: "狩夜者战争",
+    pronunciationJa: "やりょうしゃのせんそう",
+    tags: [ "natlan" ],
+  },
+  {
+    en: "Ode of Resurrection",
+    ja: "反魂の詩",
+    zhCN: "还魂诗",
+    pronunciationJa: "はんごんのうた",  // Notes:【原神】ストーリームービー「夜明け前」のボイスで確認
+    tags: [ "natlan" ],
+  },
+
+  //
+  // Snezhnaya / Fatui
+  //
+  {
+    en: "Harbinger",
+    ja: "執行官 / ファトゥス",
+    zhCN: "执行官",
+    tags: [ "fatui", "title" ],
+    notes: "ファデュイの執行官を指す。",
+    examples: [{
+      en: "Eighth of the Fatui Harbingers",
+      ja: "ファトゥス第8位",
+      zhCN: "愚人众执行官第8席",
+    }],
+  },
+  {
+    en: "Fire-Water",
+    ja: "炎水",
+    zhCN: "火水",
+    tags: [ "snezhnaya" ],
+  },
+
+  //
+  // Khaenri'ah
+  //
+  {
+    en: "Loom of Fate",
+    ja: "運命の織機",
+    zhCN: "命运的织机",
+    pronunciationJa: "うんめいのしょっき",
+    tags: [ "khaenriah" ],
+  },
+  {
+    en: "Inteyvat",
+    ja: "インテイワット",
+    zhCN: "因提瓦特",
+    tags: [ "khaenriah" ],
+  },
+  {
+    en: "curse of immortality",
+    ja: "不死の呪い",
+    zhCN: "不死诅咒",
+    notes: "ダインスレイヴなど一部のカーンルイア人が掛けられた呪い",
+    tags: [ "khaenriah" ],
+  },
+
+  //
+  // Others
+  //
+  {
+    en: "Dark Calamity",
+    ja: "黒災",
+    zhCN: "黑灾",
+    pronunciationJa: "こくさい",
+  },
+  {
+    en: "the Calamity of Darkness",
+    ja: "漆黒の災い",
+    zhCN: "漆黑的灾难",
+  },
+  {
+    en: "Descenders",
+    ja: "降臨者",
+    zhCN: "降临者",
+  },
+  {
+    en: "Magic Tonic", // TODO: v4.8 期間限定イベントの折り紙キャラクターの飲み物。魔法のインク
+    ja: "魔水",
+    zhCN: "魔水",
+    pronunciationJa: "ますい",
+    tags: [ "event" ],
+  },
+] as const satisfies SourceWord[];
