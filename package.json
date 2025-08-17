@@ -3,33 +3,36 @@
   "private": true,
   "license": "SEE LICENSE IN LICENSE.md",
   "type": "module",
-  "engines": {
-    "node": "22.x",
-    "npm": ">=10.0.0"
-  },
   "scripts": {
     "build": "jiti scripts/build-prep.ts && jiti scripts/build-release.ts",
     "todo": "jiti scripts/todo.ts",
-    "test": "npm run build && vitest run",
-    "lint": "npm run build && tsc --noEmit",
+    "test": "pnpm build && vitest run",
+    "lint": "pnpm build && tsc --noEmit",
     "release": "./scripts/release.sh",
+    "clean": "git clean -dX --exclude=\"!.env\" --force",
+    "refresh": "pnpm clean && rm --force ./pnpm-lock.yaml && corepack up && pnpm install",
     "prepare": "jiti scripts/build-prep.ts"
   },
   "dependencies": {
     "@types/lodash-es": "^4.17.12",
-    "@types/luxon": "^3.4.2",
-    "@types/node": "^22.5.5",
-    "dotenv": "^16.5.0",
+    "@types/luxon": "^3.7.1",
+    "@types/node": "^24.2.0",
+    "dotenv": "^17.2.1",
     "iconv-lite": "^0.6.3",
-    "jiti": "^2.4.2",
+    "jiti": "^2.5.1",
     "lodash-es": "^4.17.21",
-    "luxon": "^3.6.1",
-    "marked": "^15.0.8",
+    "luxon": "^3.7.1",
+    "marked": "^16.1.2",
     "node-fetch": "^3.2.4",
-    "pinyin-tone": "^2.2.5",
-    "type-fest": "^4.40.1",
-    "typescript": "^5.2.2",
-    "vitest": "^3.1.2",
-    "wrangler": "^4.12.0"
-  }
+    "pinyin-tone": "^2.3.5",
+    "type-fest": "^4.41.0",
+    "typescript": "^5.9.2",
+    "vitest": "^3.2.3",
+    "wrangler": "^4.28.0"
+  },
+  "engines": {
+    "node": ">=24.x || 22.x",
+    "pnpm": ">=10"
+  },
+  "packageManager": "pnpm@10.12.4+sha512.5ea8b0deed94ed68691c9bad4c955492705c5eeb8a87ef86bc62c74a26b037b08ff9570f108b2e4dbd1dd1a9186fea925e527f141c648e85af45631074680184"
 }

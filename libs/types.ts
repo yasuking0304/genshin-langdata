@@ -14,11 +14,20 @@ export type Word = {
   pronunciationJa?: string;
   /** Simplified Chinese translation */
   zhCN?: string;
+  /** Traditional Chinese translation */
+  zhTW?: string;
   /** Pinyin for rarely-used characters (生僻字) */
   pinyins?: {
     /** A single rarely-used character (生僻字) included in `zhCN` */
     char: string;
     /** The pronunciation for `pinyins.char` */
+    pron: string;
+  }[];
+  /** Zhuyin for rarely-used characters (生僻字) */
+  zhuyins?: {
+    /** A single rarely-used character (生僻字) included in `zhTW` */
+    char: string;
+    /** The pronunciation for `zhuyins.char` */
     pron: string;
   }[];
   /** Note in Japanese */
@@ -27,6 +36,8 @@ export type Word = {
   notesEn?: string;
   /** Note in Simplified Chinese */
   notesZh?: string;
+  /** Note in Traditional Chinese */
+  notesZhTW?: string;
   /** Tag IDs for this word */
   tags?: TagID[];
   /**
@@ -40,6 +51,8 @@ export type Word = {
     ja: string;
     /** Example sentence in Simplified Chinese */
     zhCN?: string;
+    /** Example sentence in Traditional Chinese */
+    zhTW?: string;
     /** Reference of this sentence */
     ref?: string;
     /** Reference URL of this sentence if available */
@@ -53,6 +66,8 @@ export type Word = {
     ja?: string[];
     /** Typos or other names in Simplified Chinese */
     zhCN?: string[];
+    /** Typos or other names in Traditional Chinese */
+    zhTW?: string[];
   };
   /** The date this word is added */
   createdAt?: string;
@@ -73,10 +88,12 @@ export type Tags = {
     en: string,
     ja: string,
     "zh-CN": string,
+    "zh-TW": string,
     title: {
       en: string,
       ja: string,
       "zh-CN": string,
+      "zh-TW": string,
     }
   }
 };
