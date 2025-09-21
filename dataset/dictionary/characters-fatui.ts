@@ -307,7 +307,7 @@ export default [
     notes: "少女の通称",
     notesZh: "冰之女皇给「少女」的赐名。",
     notesZhTW: "冰之女皇給「少女」的賜名。",
-    tags: [ "fatui", "character-sub" ],
+    tags: [ "fatui", "nodkrai", "character-main" ], // TODO Maybe a playable character from Nod-Krai, but not confirmed yet.
   },
   {
     en: "Damselette",
@@ -319,7 +319,15 @@ export default [
     notesEn: "Columbina's codename.",
     notesZh: "哥伦比娅的代号。",
     notesZhTW: "哥倫比婭的代號。",
-    tags: [ "fatui", "character-sub", "title" ],
+    tags: [ "fatui", "nodkrai", "character-main", "title" ], // TODO Maybe a playable character from Nod-Krai, but not confirmed yet.
+  },
+  {
+    en: "\"Moon Maiden\"",
+    ja: "「月の少女」",
+    zhCN: "「月之少女」",
+    zhTW: "「月之少女」",
+    pronunciationJa: "つきのしょうじょ",
+    tags: [ "fatui", "nodkrai", "title", "character-main" ],    // TODO: Maybe a playable character from Nod-Krai, but not confirmed yet.
   },
   {
     en: "Arlecchino",
@@ -371,7 +379,7 @@ export default [
     notes: "傀儡の通称",
     notesZh: "冰之女皇给「木偶」的赐名。",
     notesZhTW: "冰之女皇給「木偶」的賜名。",
-    tags: [ "fatui", "character-sub" ],
+    tags: [ "fatui", "nodkrai", "character-sub" ], // TODO Playability unknown as of Sep, 2025
   },
   {
     en: "Marionette",
@@ -383,7 +391,7 @@ export default [
     notesEn: "Sandrone's codename.",
     notesZh: "桑多涅的代号。",
     notesZhTW: "桑多涅的代號。",
-    tags: [ "fatui", "character-sub", "title" ],
+    tags: [ "fatui", "nodkrai", "character-sub", "title" ], // TODO Playability unknown as of Sep, 2025
   },
   {
     en: "Pierro",

@@ -193,6 +193,18 @@ export const tags = {
       "zh-TW": "原神中的Boss相關的英語和日語翻譯"
     }
   },
+  "enemy-legend": {
+    "en": "Local Legend",
+    "ja": "地方伝説",
+    "zh-CN": "地方传奇",
+    "zh-TW": "地方傳奇",
+    "title": {
+      "en": "Chinese & Japanese translations for Local Legends in Genshin Impact",
+      "ja": "原神の地方伝説の英語・中国語表記一覧",
+      "zh-CN": "原神中地方传奇的英语和日语翻译",
+      "zh-TW": "原神中地方傳奇的英語和日語翻譯"
+    }
+  },
   "location": {
     "en": "Location",
     "ja": "地名",
@@ -359,6 +371,18 @@ export const tags = {
       "ja": "原神の部族見聞の英語・中国語表記一覧",
       "zh-CN": "原神中的部族纪闻的英语和日语翻译",
       "zh-TW": "原神中的部族紀聞的英語和日語翻譯"
+    }
+  },
+  "quest-selenic": {
+    "en": "Selenic Chronicles",
+    "ja": "月下見聞",
+    "zh-CN": "月下纪闻",
+    "zh-TW": "月下紀聞	",
+    "title": {
+      "en": "Chinese & Japanese translations for the Selenic Chronicles in Genshin Impact",
+      "ja": "原神の月下見聞の英語・中国語表記一覧",
+      "zh-CN": "原神中的月下纪闻的英语和日语翻译",
+      "zh-TW": "原神中的月下見聞的英語和日語翻譯"
     }
   },
   "item": {
