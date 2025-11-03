@@ -2746,12 +2746,6 @@ export default [
     zhTW: "風之翼",
     pronunciationJa: "かぜのつばさ",
   },
-  // For collaborators:
-  //   Please do not include model-limited, time-limited, collaboration-limited, or event-limited
-  //   "Wing Glider" in this category.
-  // コラボレータ向け:
-  //   この項目に、機種限定、期間限定、コラボ限定、来場イベント限定の翼は含めないでください。 
-  //
   {
     en: "Wings of First Flight",
     ja: "始まりの翼",
@@ -2833,30 +2827,22 @@ export default [
     notes: "ナドクライの「伴月紀聞・３」クリアの報酬",
     tags: [ "nodkrai" ],
   },
-  /*
   {
-    en: "Wings of Companionship", // Note: Was it originally meant to be by advance reservation only?
+    en: "Wings of Companionship",
     ja: "見守りの翼",
   },
-  */
-  /*
   {
-    en: "Wings of Descension", // Note: Play Station Network only
+    en: "Wings of Descension",
     ja: "降臨の翼",
   },
-  */
-  /*
   {
-    en: "Wings of Delicacies", // Note: KFC Collaboration only
+    en: "Wings of Delicacies",
     ja: "盛宴の翼",
   },
-  */
-  /*
   {
-    en: "Wings of Fate's Course Intertwined", // Note: Was it originally meant to be by XBOX only?
+    en: "Wings of Fate's Course Intertwined",
     ja: "交錯する運命の翼",
   },
-  */
 
   //
   // Dresesings
