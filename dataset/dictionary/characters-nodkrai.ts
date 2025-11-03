@@ -374,8 +374,8 @@ export default [
     en: "Katya",
     ja: "カーチャ",
     notes: "「スペランザ」店主",
-    // zhCN: "卡嘉", // TODO: The Chinese name "卡嘉('Karya' in natlan)" duplicates, That's why I commented it 
-    // zhTW: "卡嘉", // TODO: The Chinese name "卡嘉('Karya' in natlan)" duplicates, That's why I commented it
+    zhCN: "卡嘉", // TODO: The Chinese name "卡嘉('Karya' in natlan)" duplicates, That's why I commented it 
+    zhTW: "卡嘉", // TODO: The Chinese name "卡嘉('Karya' in natlan)" duplicates, That's why I commented it
     tags: [ "nodkrai", "character-sub" ],
   },
   {

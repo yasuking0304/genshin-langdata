@@ -25,23 +25,44 @@ test("words[].id only includes alphanumerics & hypnens", async () => {
 });
 
 test("if dictionary JSON5s has no duplicate words", async () => {
+
+  type ExcludedChars = {
+    ja?: string;
+    "zh-CN"?: string;
+    "zh-TW"?: string;
+  }[];
+
+  const duplicateExcludedTable: ExcludedChars = [
+    {
+      "zh-CN": "卡嘉",
+      "zh-TW": "卡嘉",
+    }
+  ]
+
+  const excludedCharsJa: string[] = duplicateExcludedTable.map(
+    item => item.ja!).filter(item => item !== undefined);
+  const excludedCharsZhCN: string[] = duplicateExcludedTable.map(
+    item => item["zh-CN"]!).filter(item => item !== undefined);
+  const excludedCharsZhTW: string[] = duplicateExcludedTable.map(
+    item => item["zh-TW"]!).filter(item => item !== undefined);  
+
   for (const { id, en, ja, zhCN, zhTW } of words) {
     ok(words.filter(word => word.en === en).length === 1, `Duplicate English: ${en}`);
-    if (ja) {
+    if (ja && !excludedCharsJa.includes(ja)) {
       ok(
         words.filter(word => word.ja === ja).length === 0 ||
         words.filter(word => word.ja === ja).length === 1,
         `Duplicate Japanese: ${ja}`
       );
     }
-    if (zhCN) {
+    if (zhCN && !excludedCharsZhCN.includes(zhCN)) {
       ok(
         words.filter(word => word.zhCN === zhCN).length === 0 ||
         words.filter(word => word.zhCN === zhCN).length === 1,
         `Duplicate Simplified Chinese: ${zhCN}`
       );
     }
-    if (zhTW) {
+    if (zhTW && !excludedCharsZhTW.includes(zhTW)) {
       ok(
         words.filter(word => word.zhTW === zhTW).length === 0 ||
         words.filter(word => word.zhTW === zhTW).length === 1,
