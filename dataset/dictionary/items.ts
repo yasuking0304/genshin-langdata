@@ -1518,6 +1518,15 @@ export default [
     tags: [ "item", "mondstadt" ],
   },
   {
+    en: "The Soulblazer Saga: Volume 2",
+    ja: "炎魂戦記・第二巻",
+    zhCN: "炽魂斗士战记·第二册",
+    zhTW: "熾魂鬥士戰記·第二冊",
+    pronunciationJa: "えんこんせんき・だいにかん",
+    notes: "v6.2(LunaIII) 期間限定イベント「魂を炎やす戦士の雪の旅」配布アイテム",
+    tags: [ "item", "event", "mondstadt", "natlan" ],
+  },
+  {
     en: "Princess Mina of the Fallen Nation",
     ja: "亡国の美奈姫",
     zhCN: "亡国的美奈姬",
@@ -2437,6 +2446,15 @@ export default [
     tags: [ "item", "liyue" ],
   },
   {
+    en: "The First Iron Coin",
+    ja: "「最初の鉄銭」",
+    zhCN: "「最初的铁钱」",
+    zhTW: "「最初的鐵錢」",
+    tags: [ "item", "liyue" ],
+    pronunciationJa: "さいしょのてつせん",
+    notes: "月下見聞「寒鴉の系譜」報酬",
+  },
+  {
     en: "Green Berryshroom",
     ja: "緑トロピカルキノコ",
     zhCN: "绿果果菇",
@@ -2791,6 +2809,22 @@ export default [
     pronunciationJa: "せいりされたノート",
     tags: [ "item", "nodkrai" ],
   },
+  {
+    en: "Moon-Prayer Blossom From Columbina",
+    ja: "コロンビーナから贈られた祈月の花",
+    zhCN: "哥伦比娅赠予你的祈月之花",
+    zhTW: "哥倫比婭贈予你的祈月之花",
+    pronunciationJa: "コロンビーナからおくられたきげつのはな",
+    tags: [ "item", "nodkrai" ],
+  },
+  {
+    en: "Marionette's Notebook",
+    ja: "「傀儡」のノート",
+    zhCN: "「木偶」的笔记本",
+    zhTW: "「木偶」的筆記本",
+    pronunciationJa: "かいらいのノート",
+    tags: [ "item", "nodkrai", "fontaine" ],
+  },
 
   //
   // Wind Glider
@@ -3067,5 +3101,29 @@ export default [
     zhTW: "熾繪奇旅",
     pronunciationJa: "もえろ! ラクガキだいぼうけん",
     notes: "ベネットのコスチューム",
+  },
+  {
+    en: "As Heaven and Earth Are Made Anew",
+    ja: "新たなる天地",
+    zhCN: "复地重天",
+    zhTW: "復地重天",
+    pronunciationJa: "あらたなるてんち",
+    notes: "旅人のコスチューム",
+  },
+  {
+    en: "Melusent Gift",
+    ja: "メリュジーヌの贈り物",
+    zhCN: "莘露的赠礼",
+    zhTW: "莘露的贈禮",
+    pronunciationJa: "メリュジーヌのおくりもの",
+    notes: "ヌヴィレットのコスチューム",
+  },
+  {
+    en: "Rainlit Bamboo Reverie",
+    ja: "竹林に響く雨音",
+    zhCN: "聆雨听竹",
+    zhTW: "聆雨聽竹",
+    pronunciationJa: "ちくりんにひびくあまおと",
+    notes: "ヨォーヨのコスチューム",
   },
 ] as const satisfies SourceWord[];
