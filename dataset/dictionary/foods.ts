@@ -833,6 +833,15 @@ export default [
     tags: [ "food" ],
   },
   {
+    en: "Sugar Sculpture: Linnea",
+    ja: "飴細工・リンネア",
+    zhCN: "糖雕·莉奈娅",
+    zhTW: "糖雕·莉奈婭",
+    pronunciationJa: "あめざいく・リンネア",
+    notes: "チームにリンネアが加入した状態でナシャタウンにいるウナーヤタに話しかけると貰える飴細工。期限は24時間",
+    tags: [ "food" ],
+  },
+  {
     en: "Lohikeitto",
     ja: "ロヒケイット",
     zhCN: "奶油鲑鱼汤",
@@ -844,6 +853,20 @@ export default [
     ja: "ナド・クライ・ホットドッグ",
     zhCN: "挪德卡莱热狗",
     zhTW: "挪德卡萊熱狗",
+    tags: [ "food" ],
+  },
+  {
+    en: "Golden-Tempered Jade",
+    ja: "鍛金冷玉",
+    zhCN: "淬金冷玉",
+    zhTW: "淬金冷玉",
+    tags: [ "food" ],
+  },
+  {
+    en: "Stuffed Tofu with Minced Meat",
+    ja: "肉詰め豆腐",
+    zhCN: "肉末酿豆腐",
+    zhTW: "肉末釀豆腐",
     tags: [ "food" ],
   },
 
@@ -1599,6 +1622,27 @@ export default [
     zhTW: "香炸春捲",
     tags: [ "food" ],
   },
+  {
+    en: "Harbor Fish Burger",
+    ja: "ポートフィッシュバーガー",
+    zhCN: "海港鱼鱼堡",
+    zhTW: "海港魚魚堡",
+    tags: [ "food" ],
+  },
+  {
+    en: "Roulette Special",
+    ja: "ルーレットカクテル",
+    zhCN: "转盘特调",
+    zhTW: "轉盤特調",
+    tags: [ "food" ],
+  },
+  {
+    en: "Mint Bubblegum",
+    ja: "ミントバブルガム",
+    zhCN: "薄荷泡泡糖",
+    zhTW: "薄荷泡泡糖",
+    tags: [ "food" ],
+  },
 
   // ★★★★
   {
@@ -2148,6 +2192,26 @@ export default [
     notesEn: "Durin's specialty",
     notes: "ドゥリンのオリジナル料理",
     notesZh: "杜林的特色料理",
+  },
+  {
+    en: "Hearty Indulgence",
+    ja: "「爽快」",
+    zhCN: "「酣畅」",
+    zhTW: "「酣暢」",
+    tags: [ "food", "mondstadt" ],
+    notesEn: "Varka's specialty",
+    notes: "ファルカのオリジナル料理",
+    notesZh: "法尔伽的特色料理",
+  },
+  {
+    en: "Boredom-Busting Bubblegum",
+    ja: "退屈しのぎのバブルガム",
+    zhCN: "解闷泡泡糖",
+    zhTW: "解悶泡泡糖",
+    tags: [ "food", "mondstadt" ],
+    notesEn: "Lohen's specialty",
+    notes: "ローエンのオリジナル料理",
+    notesZh: "洛恩的特色料理",
   },
 
   // Liyue
@@ -3000,6 +3064,38 @@ export default [
     notes: "イルーガのオリジナル料理",
     notesZh: "叶洛亚的特色料理",
   },
+  {
+    en: "Iridescence Under the Tree's Shade",
+    ja: "虹色の木漏れ日",
+    zhCN: "树荫下的虹彩",
+    zhTW: "樹蔭下的虹彩",
+    pronunciationJa: "にじいろのこもれび",
+    tags: [ "food", "nodkrai", "snezhnaya" ],
+    notesEn: "Linnea's specialty",
+    notes: "リンネアのオリジナル料理",
+    notesZh: "莉奈娅的特色料理",
+  },
+  {
+    en: "Gilded Chest",
+    ja: "金細工の宝箱",
+    zhCN: "镂金的宝箱",
+    zhTW: "鏤金的寶箱",
+    pronunciationJa: "きんざいくのたからばこ",
+    tags: [ "food", "nodkrai" ],
+    notesEn: "Nicole's specialty",
+    notes: "ニコのオリジナル料理",
+    notesZh: "尼可的特色料理",
+  },
+  {
+    en: "Spinning Special",
+    ja: "くるくるスペシャル",
+    zhCN: "转转特调",
+    zhTW: "轉轉特調",
+    tags: [ "food", "nodkrai" ],
+    notesEn: "Prune's specialty",
+    notes: "プルーネのオリジナル料理",
+    notesZh: "布伦妮的特色料理",
+  },
 
   // etcetera
   {
@@ -3167,6 +3263,13 @@ export default [
     tags: [ "food" ],
   },
 
+  {
+    en: "Windrest Flower",
+    ja: "風止みの花",
+    zhCN: "风息花",
+    zhTW: "風息花",
+    tags: [ "food", "mondstadt" ],
+  },
   {
     en: "Starshroom",
     ja: "星茸",

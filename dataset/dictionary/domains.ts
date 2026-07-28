@@ -180,6 +180,14 @@ export default [
     tags: [ "mondstadt", "domain" ],
   },
   {
+    en: "Thorny Crown of the Mountain Wind",
+    ja: "山風の荊冠",
+    zhCN: "山风的荆冕",
+    zhTW: "山風的荊冕",
+    pronunciationJa: "さんぷうのけいかん",
+    tags: [ "mondstadt", "domain" ],
+  },
+  {
     en: "Imaginarium Theater",
     ja: "幻想シアター",
     zhCN: "幻想真境剧诗",
@@ -634,6 +642,13 @@ export default [
     notes: "万種母樹の中から慈心を手に入れるために入る秘境",
     notesZh: "世界任务「蒂尔·亚什特的赞歌」中，进入万种母树中获取慈心的秘境。",
     notesZhTW: "世界任務「蒂爾·亞什特的讚歌」中，進入萬種母樹中獲取慈心的秘境。",
+  },
+  {
+    en: "Binding Field of Universal Nirvana",
+    ja: "万有涅槃縛境",
+    zhCN: "万有涅槃缚境",
+    zhTW: "萬有涅槃縛境",
+    tags: [ "sumeru", "domain" ],
   },
 
   //

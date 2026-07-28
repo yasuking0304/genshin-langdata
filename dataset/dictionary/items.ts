@@ -242,6 +242,13 @@ export default [
     tags: [ "item", "dragonspine" ],
   },
   {
+    en: "Memory Factors",
+    ja: "メモリーファクター",
+    zhCN: "摹忆因子",
+    zhTW: "摹忆因子",
+    tags: [ "item", "mondstadt" ],
+  },
+  {
     en: "Spirit Carp",
     ja: "蒼霊の鯉",
     zhCN: "苍灵鲤",
@@ -373,7 +380,15 @@ export default [
     zhCN: "风之寻宝罗盘",
     zhTW: "風之尋寶羅盤",
     pronunciationJa: "かぜのトレジャーコンパス",
-    tags: [ "item", "liyue" ],
+    tags: [ "item", "mondstadt" ],
+  },
+  {
+    en: "Segment-domain Treasure Compass",
+    ja: "断片領域のトレジャーコンパス",
+    zhCN: "切片轄域寻宝罗盘",
+    zhTW: "切片轄域尋寶羅盤",
+    pronunciationJa: "だんぺんりょういきのトレジャーコンパス",
+    tags: [ "item", "mondstadt" ],
   },
   {
     en: "Geo Treasure Compass",
@@ -1995,6 +2010,14 @@ export default [
     zhTW: "遊逸旅帳",
     tags: [ "item" ],
   },
+  {
+    en: "Neo Terminal: Floating Leaf Model",
+    ja: "新型アーカーシャ端末「浮き葉」",
+    zhCN: "新式终端浮叶型",
+    zhTW: "新式終端浮葉型",
+    notes: "中国および日本においてケンタッキーとのコラボで配布されたマスコット",
+    tags: [ "item" ],
+  },
 
   //
   // Quest Items
@@ -2825,6 +2848,28 @@ export default [
     pronunciationJa: "かいらいのノート",
     tags: [ "item", "nodkrai", "fontaine" ],
   },
+  {
+    en: "A letter Carried by the Wind",
+    ja: "風が運んできた手紙",
+    zhCN: "由风捎来的信",
+    zhTW: "由風捎來的信",
+    pronunciationJa: "かぜがはこんできたてがみ",
+    tags: [ "item", "mondstadt" ],
+  },
+  {
+    en: "Varka's Secret Stash of Cash",
+    ja: "ファルカのへそくり",
+    zhCN: "法尔伽的私房钱",
+    zhTW: "法爾伽的私房錢",
+    tags: [ "item", "mondstadt" ],
+  },
+  {
+    en: "Lohen's \"Friendship Fee\"",
+    ja: "ローエンの友達料",
+    zhCN: "洛恩的「朋友費」",
+    zhTW: "洛恩的「朋友費」",
+    tags: [ "item", "mondstadt" ],
+  },
 
   //
   // Wind Glider
@@ -3125,5 +3170,21 @@ export default [
     zhTW: "聆雨聽竹",
     pronunciationJa: "ちくりんにひびくあまおと",
     notes: "ヨォーヨのコスチューム",
+  },
+  {
+    en: "Whispers of Stars and Smoke",
+    ja: "星と煙霧の夜話",
+    zhCN: "星与烟帷的夜语",
+    zhTW: "星與煙帷的夜語",
+    pronunciationJa: "ほしとえんむのよばなし",
+    notes: "シトラリのコスチューム",
+  },
+  {
+    en: "Hurlock Variations",
+    ja: "ハーロック変奏曲",
+    zhCN: "赫尔洛克变奏曲",
+    zhTW: "赫爾洛克變奏曲",
+    pronunciationJa: "はーろっくへんそうきょく",
+    notes: "シャルロットのコスチューム",
   },
 ] as const satisfies SourceWord[];

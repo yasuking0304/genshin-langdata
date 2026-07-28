@@ -55,7 +55,6 @@ export default [
     notes: "イベント報酬の武器などの精錬に用いる、専用の素材のこと",
     notesEn: "A specialized material to refine weapons acquired in the limited-time events.",
   },
-
   //
   // Swords
   //
@@ -791,6 +790,16 @@ export default [
     pronunciationJa: "ばんのうのかぎ",
     tags: [ "weapon", "claymore" ],
   },
+  {
+    en: "Super Awesome Magic Key",
+    ja: "マジカルマジックキー",
+    zhCN: "超厉害魔法钥匙",
+    zhTW: "超厲害魔法鑰匙",
+    notesEn: "v6.6(LunaVII) Limited Time Event \"Phantasmal Pals\". An item that changes the appearance of claymore to resemble the \"Ultimate Overlord's Mega Magic Sword\".",
+    notes: "v6.6(LunaVII) 期間限定イベント「空想の友と巡る旅」報酬。両手剣武器を「スーパーアルティメット覇王魔剣」に似た見た目に変えるアイテム",
+    notesZh: "v6.6(LunaVII) 限时活动「幻友绮旅」奖励",
+    tags: [ "weapon", "claymore", "event" ],
+  },
   // ★5
   {
     en: "Skyward Pride",
@@ -881,6 +890,20 @@ export default [
     zhCN: "焚曜千阳",
     zhTW: "焚曜千陽",
     pronunciationJa: "せんれつのにちりん",
+    tags: [ "weapon", "claymore" ],
+  },
+  {
+    en: "Gest of the Mighty Wolf",
+    ja: "狼の武勲詩",
+    zhCN: "狼的武功歌",
+    zhTW: "狼的武功歌",
+    tags: [ "weapon", "claymore" ],
+  },
+  {
+    en: "A Teaspoon of Transcendence",
+    ja: "超越の鍵",
+    zhCN: "超越之匙",
+    zhTW: "超越之匙",
     tags: [ "weapon", "claymore" ],
   },
 
@@ -1259,6 +1282,14 @@ export default [
     zhCN: "血染荒城",
     zhTW: "血染荒城",
     pronunciationJa: "ちぞめのあれち",
+    tags: [ "weapon", "polearm" ],
+  },
+  {
+    en: "Disaster and Remorse",
+    ja: "災憾",
+    zhCN: "灾悔",
+    zhTW: "災悔",
+    pronunciationJa: "さいかん",
     tags: [ "weapon", "polearm" ],
   },
 
@@ -1686,6 +1717,13 @@ export default [
     pronunciationJa: "あかつきをつげるれきし",
     tags: [ "weapon", "bow" ],
   },
+  {
+    en: "Golden Frostbound Oath",
+    ja: "霜契の金枝",
+    zhCN: "霜结的誓金枝",
+    zhTW: "霜結的誓金枝",
+    tags: [ "weapon", "bow" ],
+  },
 
   //
   // Catalysts
@@ -1967,6 +2005,16 @@ export default [
     pronunciationJa: "ちょうずいのことう",
     tags: [ "weapon", "catalyst" ],
   },
+  {
+    en: "Phantasmal Gift: Star Omen",
+    ja: "幻のギフト・スターオーメン",
+    zhCN: "幻礼·星兆",
+    zhTW: "幻禮·星兆",
+    notesEn: "v6.4(LunaV) Limited Time Event \"Homeward, He Who Caught the Wind\" Reward. An item to changes the appearance of the catalyst weapon to a witch's crystal ball.",
+    notes: "v6.4(LunaV) 期間限定イベント「風を捕まえる帰郷者」報酬。法器武器の見た目を魔女の水晶玉に変えるアイテム",
+    notesZh: "v6.4(LunaV) 限时活动「捕风的归客」奖励",
+    tags: [ "weapon", "catalyst", "event" ],
+  },
   // ★5
   {
     en: "Skyward Atlas",
@@ -2119,6 +2167,14 @@ export default [
     zhCN: "帷间夜曲",
     zhTW: "帷間夜曲",
     pronunciationJa: "とばりのやきょく",
+    tags: [ "weapon", "catalyst" ],
+  },
+  {
+    en: "Angelos' Heptades",
+    ja: "塵と光の七つの誓約",
+    zhCN: "尘光七谕",
+    zhTW: "塵光七諭",
+    pronunciationJa: "ちりとひかりのななつのせいやく",
     tags: [ "weapon", "catalyst" ],
   },
 ] as const satisfies SourceWord[];
