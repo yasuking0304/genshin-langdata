@@ -388,7 +388,7 @@ export default [
     notes: "傀儡の通称",
     notesZh: "冰之女皇给「木偶」的赐名。",
     notesZhTW: "冰之女皇給「木偶」的賜名。",
-    tags: [ "fatui", "nodkrai", "character-sub" ], // TODO Playability unknown as of Sep, 2025
+    tags: [ "fatui", "nodkrai", "fontaine", "character-main" ],
   },
   {
     en: "Marionette",
@@ -400,7 +400,27 @@ export default [
     notesEn: "Sandrone's codename.",
     notesZh: "桑多涅的代号。",
     notesZhTW: "桑多涅的代號。",
-    tags: [ "fatui", "nodkrai", "character-sub", "title" ], // TODO Playability unknown as of Sep, 2025
+    tags: [ "fatui", "nodkrai", "fontaine", "character-main", "title" ],
+  },
+  {
+    en: "Marionette Guillotin",
+    ja: "マリアネッテ・ギヨタン",
+    zhCN: "小玛丽安·吉约丹",
+    zhTW: "小瑪麗安·吉約丹",
+    notesEn: "Sandrone's Real Name",
+    notes: "「傀儡」、サンドローネの本名",
+    notesZh: "「木偶」, 桑多涅的本名。",
+    notesZhTW: "「木偶」, 桑多涅的本名。",
+    tags: [ "fatui", "nodkrai", "fontaine", "character-main" ],
+  },
+  {
+    en: "Clockwork Princess",
+    ja: "クロックワークプリンセス",
+    zhCN: "发条公主",
+    zhTW: "發條公主",
+    notesEn: "The nickname that Sandrone wrote for herself in the diary that she tore up.",
+    notes: "サンドローネが破り捨てた日記に書いていた自分自身のニックネーム",
+    tags: [ "fontaine", "character-main", "title" ],
   },
   {
     en: "Pulonia",
@@ -409,6 +429,14 @@ export default [
     zhTW: "普隆尼亞",
     notes: "「傀儡」と行動を共にする大型ロボット",
     tags: [ "fatui", "nodkrai", "character-sub" ],
+  },
+  {
+    en: "Fagio",
+    ja: "ファジオ",
+    zhCN: "法洁欧",
+    zhTW: "法潔歐",
+    notes: "「傀儡」が召喚する多機能汎用支援型自動マシナリー",
+    tags: [ "fatui", "fontaine", "character-sub" ],
   },
   {
     en: "Pierro",
